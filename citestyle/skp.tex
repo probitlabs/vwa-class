@@ -15,3 +15,12 @@
 %ref
 \newcommand{\skpref}[1]{(\cite[vgl.][]{#1})}
 \newcommand{\Skpref}[1]{(\cite[Vgl.][]{#1})}
+
+%skplongcite (\skplongcite[Seitenzahl]{Name der Quelle}{Text})
+\newcommand{\skplongcite}[3][]{
+\vspace{0.5cm}
+\begin{addmargin}{1cm}
+\small{#3} \parencite[][#1]{#2}
+\end{addmargin}
+\vspace{0.5cm}
+}
