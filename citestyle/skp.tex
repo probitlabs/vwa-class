@@ -3,17 +3,19 @@
 
 
 %
-%	code stolen from skpcite script by Valentin Huebner
+%	code partially stolen from skpcite script by Valentin Huebner
 %
 
-%cite  (\skpcite[seitenzahl]{Name der Quelle im .bib file})
-\newcommand{\skpcite}[2][]{\parencite[vgl.][#1]{#2}}
-\newcommand{\Skpcite}[2][]{\parencite[Vgl.][#1]{#2}}
-%multicite \skpcitemulti[42]{Mixer202}[18]{Baron1992} beliebig viele möglich!
-\newcommand{\skpcitemulti}{\parencites(vgl.)()}
-\newcommand{\Skpcitemulti}{\parencites(Vgl.)()}
+%confer (\skpcf[seitenzahl]{Name der Quelle im .bib file})
+\newcommand{\skpcf}[2][]{\parencite[vgl.][#1]{#2}}
+\newcommand{\Skpcf}[2][]{\parencite[Vgl.][#1]{#2}}
+%multiconfer (\skpcfmulti[42]{Mixer202}[18]{Baron1992} beliebig viele möglich!)
+\newcommand{\skpcfmulti}{\parencites(vgl.)()}
+\newcommand{\Skpcfrmulti}{\parencites(Vgl.)()}
 
-%skplongcite (\skplongcite[Seitenzahl]{Name der Quelle}{Text})
+%cite (\skpcite[seitenzahl]{Name der Quelle im .bib file})
+\newcommand{\skpcite}[2][]{\parencite[][#1]{#2}}
+%longcite (\skplongcite[Seitenzahl]{Name der Quelle}{Text})
 \newcommand{\skplongcite}[3][]{
 \vspace{0.5cm}
 \begin{addmargin}{1cm}
