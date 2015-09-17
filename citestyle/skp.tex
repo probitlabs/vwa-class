@@ -6,20 +6,41 @@
 %	code partially stolen from skpcite script by Valentin Huebner
 %
 
-%confer (\skpcf[seitenzahl]{Name der Quelle im .bib file})
-\newcommand{\skpcf}[2][]{\parencite[vgl.][#1]{#2}}
-\newcommand{\Skpcf}[2][]{\parencite[Vgl.][#1]{#2}}
-%multiconfer (\skpcfmulti[42]{Mixer202}[18]{Baron1992} beliebig viele möglich!)
-\newcommand{\skpcfmulti}{\parencites(vgl.)()}
-\newcommand{\Skpcfrmulti}{\parencites(Vgl.)()}
+%confer (\cf[seitenzahl]{Name der Quelle im .bib file})
+\newcommand*{\cf}[2][]{\parencite[vgl.][#1]{#2}}
+\newcommand*{\Cf}[2][]{\parencite[Vgl.][#1]{#2}}
+%multiconfer (\cfmulti[42]{Mixer202}[18]{Baron1992} beliebig viele möglich!)
+\newcommand*{\cfmulti}{\parencites(vgl.)()}
+\newcommand*{\Cfmulti}{\parencites(Vgl.)()}
 
-%cite (\skpcite[Seitenzahl]{Name der Quelle}{Text})
-\newcommand{\skpcite}[3][]{\glqq #3\grqq \parencite[][#1]{#2}}
-%longcite (\skplongcite[Seitenzahl]{Name der Quelle}{Text})
-\newcommand{\skplongcite}[3][]{
-\vspace{0.5cm}
-\begin{addmargin}{1cm}
-\small{#3} \parencite[][#1]{#2}
-\end{addmargin}
-\vspace{0.5cm}
+% Quote blocks
+% \begin{(long)quote}[Seitenzahl]{Quelle}Text\end{(long)quote}
+\newcommand*{\TempSource}{} % Helper function as parameters of env. can only be used in the first codeblock
+\renewenvironment*{quote}[2][]
+{%
+	\renewcommand*{\TempSource}{\parencite[][#1]{#2}}%
+	\glqq%
+}{%
+	\grqq\enspace
+	\TempSource
 }
+\newenvironment*{longquote}[2][]
+{
+	\renewcommand*{\TempSource}{\parencite[][#1]{#2}}
+	\vspace{0.5cm}
+	\begin{addmargin}{1cm}
+}
+{
+	\TempSource
+	\end{addmargin}
+	\vspace{0.5cm}
+}
+
+%%%%%
+% backwards compatibility
+\newcommand*{\skpcf}{\cf}
+\newcommand*{\Skpcf}{\Cf}
+\newcommand*{\skpcfmulti}{\cfmulti}
+\newcommand*{\Skpcfmulti}{\Cfmulti}
+\newcommand*{\skpcite}[3][]{\begin{quote}[#1]{#2}#3\end{quote}}
+\newcommand*{\skplongcite}[3][]{\begin{longquote}[#1]{#2}#3\end{longquote}}
