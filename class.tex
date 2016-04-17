@@ -1,10 +1,11 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{vwa}[2016/04/16 Vorwissenschaftliche Arbeit in Österreich]
+\ProvidesClass{vwa}[2016/04/16 Vorwissenschaftliche Arbeit in Österreich]
 
 \LoadClass{scrreport}
 \KOMAoptions{paper=a4, fontsize=12pt, DIV=calc}
 
-\RequirePackage{chngcntr}
+\RequirePackage{polyglossia}
+\RequirePackage{fontspec}
 
 \DeclareOption{foo} {
   \typeout{Foo.}
@@ -21,3 +22,15 @@
 
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
+
+% TODO Merge to one env
+\newenvironment{abstractpage}
+  {\clearpage\vspace*{\fill}\thispagestyle{plain}
+  }
+  {\vfill\clearpage}
+\newenvironment{mlabstract}[1]
+  {\bigskip\selectlanguage{#1}%
+   \begin{center}\bfseries\abstractname\end{center}}
+  {\par\bigskip}
+
+\newcommand{\name}{\textsc}
