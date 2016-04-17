@@ -1,0 +1,23 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{vwa}[2016/04/16 Vorwissenschaftliche Arbeit in Österreich]
+
+\LoadClass{scrreport}
+\KOMAoptions{paper=a4, fontsize=12pt, DIV=calc}
+
+\RequirePackage{chngcntr}
+
+\DeclareOption{foo} {
+  \typeout{Foo.}
+}
+\ProcessOptions\relax
+
+\setromanfont{Cormorant}
+\setsansfont{Noto Sans}
+\setmonofont{Source Code Pro}
+\setmathfont{Gyra Schola}
+
+\counterwithout{figure}{chapter}
+\counterwithout{equation}{chapter}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
