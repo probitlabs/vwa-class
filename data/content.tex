@@ -1,7 +1,7 @@
 \chapter{Vektoren}
 
-
-Auch wer nicht Mathematik studiert hat, sollte aus seiner Schulzeit noch mit Vektoren vertraut sein. Streng genommen handelt es sich dabei um Elemente eines Vektorraums, einer auf einem Körper aufbauenden Struktur, für deren Elemente bestimmte Axiome erfüllt sind. Im Sinne der 3D-Grafik reicht es jedoch, sie als Objekte anzusehen, die mehrere Zahlen (Elemente) zusammenfassen, die auf Koordinaten hinweisen. So werden Vektoren beispielsweise zum Beschreiben von Punkten, Entfernungen oder Richtungen verwendet. Sie können als Pfeile im Raum visualisiert werden, die generell keine fixe Position im Raum haben. Bezeichnet man mit ihnen Punkte, so müssen die Pfeile auch vom Ursprung des Koordinatensystems ausgehen.  \skpcf[46-47]{big} In der Notation dieser Arbeit unterscheiden sie sich von normalen Zahlen durch ein Pfeilsymbol über dem Namen. Die einzelnen Elemente werden entweder durch Zahlen (z.b. $a_1$) oder, bei einer festgelegten Anzahl an Dimensionen durch Buchstaben (z.b. $a_x$, $a_y$ und $a_z$) angegeben, ohne Vektorpfeil.
+\cf
+Auch wer nicht Mathematik studiert hat, sollte aus seiner Schulzeit noch mit Vektoren vertraut sein. Streng genommen handelt es sich dabei um Elemente eines Vektorraums, einer auf einem Körper aufbauenden Struktur, für deren Elemente bestimmte Axiome erfüllt sind. Im Sinne der 3D-Grafik reicht es jedoch, sie als Objekte anzusehen, die mehrere Zahlen (Elemente) zusammenfassen, die auf Koordinaten hinweisen. So werden Vektoren beispielsweise zum Beschreiben von Punkten, Entfernungen oder Richtungen verwendet. Sie können als Pfeile im Raum visualisiert werden, die generell keine fixe Position im Raum haben. Bezeichnet man mit ihnen Punkte, so müssen die Pfeile auch vom Ursprung des Koordinatensystems ausgehen. \parencite[\cf][46-47]{big} In der Notation dieser Arbeit unterscheiden sie sich von normalen Zahlen durch ein Pfeilsymbol über dem Namen. Die einzelnen Elemente werden entweder durch Zahlen (z.b. $a_1$) oder, bei einer festgelegten Anzahl an Dimensionen durch Buchstaben (z.b. $a_x$, $a_y$ und $a_z$) angegeben, ohne Vektorpfeil.
 
 \section{Allgemeine Operationen}
 
@@ -9,10 +9,10 @@ Seien $\vec{a}=a_1+a_2+a_3+\dots{}+a_n$ und $\vec{b}=b_1+b_2+b_3+\dots{}+b_n$ zw
 \begin{align}\label{vecadd}
 \vec{a} + \vec{b} =
 \begin{bmatrix} a_1+b_1 \\ a_2+b_2 \\ a_3+b_3 \\ \vdots \\ a_n+b_n \end{bmatrix}&&
-\vec{a} - \vec{b} = 
+\vec{a} - \vec{b} =
 \begin{bmatrix} a_1-b_1 \\ a_2-b_2 \\ a_3-b_3 \\ \vdots \\ a_n-b_n \end{bmatrix}
 \end{align}
-\skpcf{small}
+\parencite[\cf]{small}
 
 Als Betrag eines Vektors bezeichnet man die Länge des Pfeils, die sich aus einer einfachen Formel ergibt, die über den Satz des Pythagoras für beliebig viele Dimensionen hergeleitet werden kann. Hat ein Vektor die Länge 1, so nennt man ihn auch Einheitsvektor. Sei x der Betrag des Vektors $\vec{a}$, so gilt:
 \begin{equation}\label{veclength}
@@ -32,7 +32,7 @@ Im Umkehrschluss gilt also auch:
 
 Alle bisher vorgestellten Operationen zwischen zwei Vektoren waren kommutativ, assoziativ und distributiv. Kommutativgesetz und Assoziativgesetz gelten für die nächste Operation nicht mehr: das Kreuzprodukt. Dieses existiert nur in $R^3$ (im dreidimensionalen Raum) und gibt für zwei Vektoren $\vec{a}=a_x+a_y+a_z$ und $\vec{b}=b_x+b_y+b_z$ einen Vektor $\vec{c}$ zurück, der normal auf $\vec{a}$ und $\vec{b}$ steht, und dessen Betrag dem Flächeninhalt des von $\vec{a}$ und $\vec{b}$ aufgespannten Parallelogramms entspricht.
 \begin{equation}\label{veccross}
-\vec{c} = \vec{a}x\vec{b} = 
+\vec{c} = \vec{a}x\vec{b} =
 \begin{bmatrix} a_y*b_z - a_z*b_y \\ a_z*b_x - a_x*b_z \\ a_x*b_y - a_y*b_x \end{bmatrix}
 \end{equation}
 
