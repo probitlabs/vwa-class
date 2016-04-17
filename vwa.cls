@@ -1,11 +1,15 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{vwa}[2016/04/16 Vorwissenschaftliche Arbeit in Österreich]
+\ProvidesClass{../vwa-class/vwa}[2016/04/16 Vorwissenschaftliche Arbeit in Österreich]
 
-\LoadClass{scrreport}
+\LoadClass{scrreprt}
 \KOMAoptions{paper=a4, fontsize=12pt, DIV=calc}
 
 \RequirePackage{polyglossia}
 \RequirePackage{fontspec}
+\RequirePackage{amsmath}
+\RequirePackage{unicode-math}
+\RequirePackage[backend=biber, style=chicago-authordate]{biblatex}
+\RequirePackage{chngcntr}
 
 \DeclareOption{foo} {
   \typeout{Foo.}
@@ -15,7 +19,7 @@
 \setromanfont{Cormorant}
 \setsansfont{Noto Sans}
 \setmonofont{Source Code Pro}
-\setmathfont{Gyra Schola}
+\setmathfont{TeX Gyre Heros}
 
 \counterwithout{figure}{chapter}
 \counterwithout{equation}{chapter}
