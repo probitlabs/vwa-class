@@ -4,11 +4,12 @@
 \LoadClass{scrreprt}
 \KOMAoptions{paper=a4, fontsize=12pt, DIV=calc}
 
-\RequirePackage{polyglossia}
-\RequirePackage{fontspec}
-\RequirePackage{amsmath}
+\RequirePackage{xstring} % string ops
+\RequirePackage{polyglossia} % multi-lang
+\RequirePackage{csquotes} % lang-specific quotes
+\RequirePackage{amsmath} % math
 \RequirePackage{unicode-math}
-\RequirePackage[backend=biber, style=chicago-authordate]{biblatex}
+\RequirePackage[backend=biber, style=chicago-authordate]{biblatex} % bib + cite
 \RequirePackage{chngcntr}
 
 \DeclareOption{foo} {
@@ -38,3 +39,7 @@
   {\par\bigskip}
 
 \newcommand{\name}{\textsc}
+
+% TODO Add multi-lang support
+\newcommand{\cf}{\iflanguage{german}{vgl.}{cf.}}
+%\newcommand{\Cf}{\MakeUppercase{\StrLeft{\cf}{1}}\StrGobbleLeft{\cf}{1}}
