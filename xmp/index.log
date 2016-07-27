@@ -1,0 +1,3147 @@
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Arch Linux) (rev 5238)  (format=lualatex 2016.4.17)  27 JUL 2016 06:47
+ restricted \write18 enabled.
+**index
+(./index.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 79 languages loaded.
+(../vwa-class/vwa.cls
+Document Class: ../vwa-class/vwa 2016/07/27 Vorwissenschaftliche Arbeit in Öste
+rreich
+(/usr/share/texmf/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2015/10/03 v3.19a KOMA-Script document class (report)
+(/usr/share/texmf/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/share/texmf/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2015/10/03 v3.19a KOMA-Script package (loading files)
+
+Package scrlfile, 2015/10/03 v3.19a KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/share/texmf/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2015/10/03 v3.19a KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 125.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 126.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 127.
+Package tocbasic Info: defining new hook before heading of `' on input line 1588
+.
+Class scrreprt Info: File `scrsize11pt.clo' used instead of
+(scrreprt)           file `scrsize11.clo' to setup font sizes on input line 2248
+.
+
+(/usr/share/texmf/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2015/10/03 v3.19a KOMA-Script font size class option (11pt
+)
+)
+(/usr/share/texmf/tex/latex/koma-script/typearea.sty
+Package: typearea 2015/10/03 v3.19a KOMA-Script package (type area)
+
+Package typearea, 2015/10/03 v3.19a KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1509.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+LaTeX Info: Redefining \textsubscript on input line 4652.
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count87
+\c@table=\count88
+\bibindent=\dimen102
+)
+Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 7.
+ (/usr/share/texmf/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2015/10/03 v3.19a KOMA-Script font size class option (12pt
+)
+)
+DIV calculation for typearea with good linewidth.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 9
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 398.33862pt
+(typearea)              DIV departure   = 0%
+(typearea)              \evensidemargin = 27.31467pt
+(typearea)              \oddsidemargin  = 27.31467pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 577.5pt
+(typearea)              \topmargin      = -18.25089pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 7.
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write3
+\integerpart=\count89
+\decimalpart=\count90
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+(/usr/share/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2015/08/06 v1.42.0 Alternative to Babel for XeLaTeX and Lua
+LaTeX
+
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count91
+)
+(/usr/share/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+)
+\XKV@depth=\count92
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2015/09/24 v2.4e Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2015/11/04 v6224 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2015/11/04 v6224 L3 programming layer (code) 
+L3 Module: l3bootstrap 2015/10/18 v6213 L3 Bootstrap code
+\ucharcat@table=\catcodetable5
+L3 Module: l3names 2015/11/03 v6220 L3 Namespace for primitives
+L3 Module: l3basics 2015/09/22 v6033 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
+L3 Module: l3str 2015/09/20 v6021 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2015/09/25 v6089 L3 Integers
+\c_max_int=\count93
+\l_tmpa_int=\count94
+\l_tmpb_int=\count95
+\g_tmpa_int=\count96
+\g_tmpb_int=\count97
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count98
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2015/09/28 v6114 L3 Experimental token manipulation
+L3 Module: l3prop 2015/08/05 v5777 L3 Property lists
+L3 Module: l3msg 2015/09/28 v6113 L3 Messages
+L3 Module: l3file 2015/09/23 v6037 L3 File and I/O operations
+\l_iow_line_count_int=\count99
+\l__iow_target_count_int=\count100
+\l__iow_current_line_int=\count101
+\l__iow_current_word_int=\count102
+\l__iow_current_indentation_int=\count103
+L3 Module: l3skip 2015/09/25 v6089 L3 Dimensions and skips
+\c_zero_dim=\dimen103
+\c_max_dim=\dimen104
+\l_tmpa_dim=\dimen105
+\l_tmpb_dim=\dimen106
+\g_tmpa_dim=\dimen107
+\g_tmpb_dim=\dimen108
+\c_zero_skip=\skip48
+\c_max_skip=\skip49
+\l_tmpa_skip=\skip50
+\l_tmpb_skip=\skip51
+\g_tmpa_skip=\skip52
+\g_tmpb_skip=\skip53
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+L3 Module: l3keys 2015/09/23 v6037 L3 Key-value interfaces
+\g__keyval_level_int=\count104
+\l_keys_choice_int=\count105
+L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
+\c__fp_leading_shift_int=\count106
+\c__fp_middle_shift_int=\count107
+\c__fp_trailing_shift_int=\count108
+\c__fp_big_leading_shift_int=\count109
+\c__fp_big_middle_shift_int=\count110
+\c__fp_big_trailing_shift_int=\count111
+\c__fp_Bigg_leading_shift_int=\count112
+\c__fp_Bigg_middle_shift_int=\count113
+\c__fp_Bigg_trailing_shift_int=\count114
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box27
+\l_tmpa_box=\box28
+\l_tmpb_box=\box29
+\g_tmpa_box=\box30
+\g_tmpb_box=\box31
+L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
+\l__coffin_internal_box=\box32
+\l__coffin_internal_dim=\dimen109
+\l__coffin_offset_x_dim=\dimen110
+\l__coffin_offset_y_dim=\dimen111
+\l__coffin_x_dim=\dimen112
+\l__coffin_y_dim=\dimen113
+\l__coffin_x_prime_dim=\dimen114
+\l__coffin_y_prime_dim=\dimen115
+\c_empty_coffin=\box33
+\l__coffin_aligned_coffin=\box34
+\l__coffin_aligned_internal_coffin=\box35
+\l_tmpa_coffin=\box36
+\l_tmpb_coffin=\box37
+\l__coffin_display_coffin=\box38
+\l__coffin_display_coord_coffin=\box39
+\l__coffin_display_pole_coffin=\box40
+\l__coffin_display_offset_dim=\dimen116
+\l__coffin_display_x_dim=\dimen117
+\l__coffin_display_y_dim=\dimen118
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3candidates 2015/11/01 v6216 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen119
+\l__box_bottom_dim=\dimen120
+\l__box_left_dim=\dimen121
+\l__box_right_dim=\dimen122
+\l__box_top_new_dim=\dimen123
+\l__box_bottom_new_dim=\dimen124
+\l__box_left_new_dim=\dimen125
+\l__box_right_new_dim=\dimen126
+\l__box_internal_box=\box41
+\l__coffin_bounding_shift_dim=\dimen127
+\l__coffin_left_corner_dim=\dimen128
+\l__coffin_right_corner_dim=\dimen129
+\l__coffin_bottom_corner_dim=\dimen130
+\l__coffin_top_corner_dim=\dimen131
+\l__coffin_scaled_total_height_dim=\dimen132
+\l__coffin_scaled_width_dim=\dimen133
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3luatex 2015/09/10 v5983 L3 Experimental LuaTeX-specific functions
+)
+(/usr/share/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
+File: l3unicode-data.def 2015/07/20 v5676 L3 Unicode data
+)
+(/usr/share/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2015/09/10 v5983 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count115
+))
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2015/11/04 v6224 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count116
+\l__xparse_m_args_int=\count117
+\l__xparse_mandatory_args_int=\count118
+\l__xparse_processor_int=\count119
+\l__xparse_v_nesting_int=\count120
+)
+(/usr/share/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
+Package: luaotfload 2014/08/10 v2.5-4 OpenType layout system
+
+(/usr/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/usr/share/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count121
+)
+\CatcodeTableOther=\catcodetable6
+\CatcodeTableExpl=\catcodetable7
+)
+Lua module: luaotfload-main 2014/08/10 2.50003 OpenType layout system.(using wri
+te cache: /home/tsby/.texlive/texmf-var/luatex-cache/generic)(using read cache: 
+/var/lib/texmf/luatex-cache/generic /home/tsby/.texlive/texmf-var/luatex-cache/g
+eneric)
+Lua-only attribute luaotfload@kernpair = 1
+Lua-only attribute luaotfload@ligacomp = 2
+Lua-only attribute luaotfload@markbase = 3
+Lua-only attribute luaotfload@markmark = 4
+Lua-only attribute luaotfload@markdone = 5
+Lua-only attribute luaotfload@cursbase = 6
+Lua-only attribute luaotfload@curscurs = 7
+Lua-only attribute luaotfload@cursdone = 8
+Lua-only attribute luaotfload@state = 9
+luaotfload | main : fontloader loaded in 0.059 seconds
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.find_vf_file' at position 1 in `find_vf_file'.
+luaotfload | conf : Root cache directory is /home/tsby/.texlive/texmf-var/luatex
+-cache/generic/names.
+luaotfload | conf : Root cache directory is /home/tsby/.texlive/texmf-var/luatex
+-cache/generic/names.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.)
+Lua module: fontspec 2013/05/20 2.3c Advanced font selection for LuaLaTeX.
+\l_fontspec_script_int=\count122
+\l_fontspec_language_int=\count123
+\l_fontspec_strnum_int=\count124
+\l__fontspec_tmpa_dim=\dimen134
+\l__fontspec_tmpb_dim=\dimen135
+\l__fontspec_tmpc_dim=\dimen136
+ (/usr/share/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+Package: fontspec-patches 2015/09/24 v2.4e Font selection for XeLaTeX and LuaLaT
+eX
+LaTeX Info: Redefining \em on input line 49.
+LaTeX Info: Redefining \emph on input line 57.
+LaTeX Info: Redefining \- on input line 60.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 155.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 159.
+.................................................
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2015/09/24 v2.4e Font selection for XeLaTeX and LuaLaTe
+X
+
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texmf-dist/tex/latex/euenc/eu2enc.def
+File: eu2enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU2+lmr on input line 105.
+
+(/usr/share/texmf-dist/tex/latex/euenc/eu2lmr.fd
+File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | db : Font names database loaded from /home/tsby/.texlive/texmf-var/
+luatex-cache/generic/names/luaotfload-names.luc(compiling luc: /var/lib/texmf/lu
+atex-cache/generic/fonts/otf/lmroman10-regular.luc)(load luc: /home/tsby/.texliv
+e/texmf-var/luatex-cache/generic/fonts/otf/lmroman10-regular.luc))
+(/usr/share/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
+ther characters in Unicode lower plane
+
+(/usr/share/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/lmromanslant10-reg
+ular.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf
+/lmromanslant10-regular.luc)(compiling luc: /var/lib/texmf/luatex-cache/generic/
+fonts/otf/lmroman10-italic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-c
+ache/generic/fonts/otf/lmroman10-italic.luc)(compiling luc: /var/lib/texmf/luate
+x-cache/generic/fonts/otf/lmroman10-bold.luc)(load luc: /home/tsby/.texlive/texm
+f-var/luatex-cache/generic/fonts/otf/lmroman10-bold.luc)
+LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357.
+
+ (/usr/share/texmf-dist/tex/latex/euenc/eu2lmss.fd
+File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/lmsans10-regular.
+luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/lmsa
+ns10-regular.luc))
+\tipaTiiicode=\count125
+\tipasavetokens=\toks17
+\tipachecktokens=\toks18
+ (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count126
+))
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__fontspec_post_arg:w with sig. 'mmO{}' on line 45.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'om' on line 47.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'om' on line 57.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'om' on line 67.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'om' on line 77.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'om' on line 91.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'om' on line 99.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'om' on line 107.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'om' on line 115.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mom' on line 129.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mom' on line 144.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 158.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 214.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 225.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 233.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 241.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 262.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 271.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 276.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 302.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 322.
+.................................................
+\l__fontspec_tmp_int=\count127
+LaTeX Info: Redefining \itshape on input line 2151.
+LaTeX Info: Redefining \slshape on input line 2156.
+LaTeX Info: Redefining \scshape on input line 2161.
+LaTeX Info: Redefining \upshape on input line 2166.
+
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+luatex-hyphen: using data file: /usr/share/texmf-dist/tex/generic/config/languag
+e.dat.lua
+Lua module: polyglossia 2013/05/11 1.3 Polyglossia)
+(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2015/07/18 v5.1f context-sensitive quotations (JAW)
+\csq@reset=\count128
+\csq@gtype=\count129
+\csq@glevel=\count130
+\csq@qlevel=\count131
+\csq@maxlvl=\count132
+\csq@tshold=\count133
+\csq@ltx@everypar=\toks19
+
+(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2015/07/18 v5.1f csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen139
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen140
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count134
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count135
+\leftroot@=\count136
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count137
+\DOTSCASE@=\count138
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box42
+\strutbox@=\box43
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count139
+\c@MaxMatrixCols=\count140
+\dotsspace@=\muskip16
+\c@parentequation=\count141
+\dspbrk@lvl=\count142
+\tag@help=\toks21
+\row@=\count143
+\column@=\count144
+\maxfields@=\count145
+\andhelp@=\toks22
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks23
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+Package: unicode-math 2015/09/24 v0.8c Unicode maths in XeLaTeX and LuaLaTeX
+
+(/usr/share/texmf-dist/tex/latex/ucharcat/ucharcat.sty
+Package: ucharcat 2015/08/23 v0.02 ucharcat for luaLaTeX (DPC)
+\ucharcat@table=\catcodetable8
+)
+(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2015/11/04 v6224 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+))
+(/usr/share/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+
+(/usr/share/texmf-dist/tex/latex/filehook/filehook-scrlfile.sty
+Package: filehook-scrlfile 2011/01/03 v0.1 filehook patch for scrlfile package
+Package filehook Info: Package 'scrlfile' detected and compensated for on input 
+line 102.
+))
+\g__um_fam_int=\count146
+\g__um_primekern_muskip=\muskip17
+\l__um_primecount_int=\count147
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \unimathsetup with sig. 'm' on line 168.
+.................................................
+
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
+(/usr/share/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
+Package: lualatex-math 2015/09/22 v1.4a Patches for mathematics typesetting with
+ LuaLaTeX
+Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
+h LuaLaTeX
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \resetMathstrut@.
+.................................................
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \subarray.
+.................................................
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \frac .
+.................................................
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \@genfrac.
+.................................................
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \newmcodes@.
+.................................................
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathfontface with sig. 'mO{}mO{}' on line 167.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setoperatorfont with sig. 'm' on line 171.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathfont with sig. 'O{}mO{}' on line 280.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addnolimits with sig. 'm' on line 523.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \removenolimits with sig. 'm' on line 527.
+.................................................
+\g__file_internal_ior=\read1
+
+(/usr/share/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)
+.................................................
+. unicode-math info: "patch-macro"
+. 
+. I'm going to patch macro \plainroot@.
+.................................................
+.................................................
+. unicode-math info: "patch-macro"
+. 
+. I'm going to patch macro \r@@t.
+.................................................
+))
+(/usr/share/texmf-dist/tex/latex/sfmath/sfmath.sty
+Package: sfmath 2007/08/27 v0.8 sans serif maths
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 329.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> T1/lmss/m/n on input line 329.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 330.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/lmss/bx/n on input line 330.
+\symSFMath=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `normal'
+(Font)                  T1/lmss/m/sl --> T1/lmss/m/sl on input line 343.
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `bold'
+(Font)                  T1/lmss/m/sl --> T1/lmss/bx/sl on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \imath on input line 398.
+LaTeX Font Info:    Redeclaring math symbol \jmath on input line 399.
+\symSFMathUp=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `normal'
+(Font)                  T1/lmss/m/n --> T1/lmss/m/n on input line 406.
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `bold'
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \ldotp on input line 410.
+\symSFMathGreek=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 419.
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 420.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 422.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 423.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 424.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 425.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 426.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 427.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 428.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 429.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 430.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 431.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 432.
+\symSFMathUpGreek=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 436.
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 437.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
+(Font)                  OML/cmm/m/it --> T1/lmss/m/sl on input line 446.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `bold'
+(Font)                  OML/cmm/b/it --> T1/lmss/bx/sl on input line 447.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  T1/lmss/m/n --> T1/lmss/m/n on input line 449.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 450.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/lmss/bx/n on input line 452.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/lmss/bx/n on input line 453.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/lmss/m/sl on input line 455.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/lmss/bx/sl on input line 456.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/lmss/m/n on input line 458.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/lmss/bx/n on input line 459.
+LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
+(Font)                  T1/lmss/m/sl --> T1/lmss/bx/sl on input line 466.
+)
+(/usr/share/texmf-dist/tex/latex/fira/FiraSans.sty
+Package: FiraSans 2014/11/19 (Bob Tennent and autoinst) Style file for Fira Sans
+ fonts.
+
+(/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/firas
+ans-regular.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fo
+nts/otf/firasans-regular.luc)
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+\g__fontspec_family_FiraSans_int=\count148
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/lmrom
+an12-regular.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/f
+onts/otf/lmroman12-regular.luc)
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/firasans
+-bold.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/ot
+f/firasans-bold.luc)(save: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fo
+nts/otf/firasans-bold.lua)(save: /home/tsby/.texlive/texmf-var/luatex-cache/gene
+ric/fonts/otf/firasans-bold.luc)
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-RegularItalic.otf" unsuccessful, fa
+lling back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf
+/firasans-regularitalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cach
+e/generic/fonts/otf/firasans-regularitalic.luc)
+luaotfload | load : path lookup of "FiraSans-RegularItalic.otf" unsuccessful, fa
+lling back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/fi
+rasans-bolditalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/gene
+ric/fonts/otf/firasans-bolditalic.luc)(save: /home/tsby/.texlive/texmf-var/luate
+x-cache/generic/fonts/otf/firasans-bolditalic.lua)(save: /home/tsby/.texlive/tex
+mf-var/luatex-cache/generic/fonts/otf/firasans-bolditalic.luc)
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(0)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Ligatures=TeX,Numbers =
+. {Proportional,OldStyle},UprightFont = *-Regular,ItalicFont =
+. *-RegularItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Regular.otf]:mode=node;script=latn;language=DFLT;+tlig;+t
+rep;+tlig;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Regular.otf]:mode=node;script=latn;language=DFLT;+tlig;+t
+rep;+tlig;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+tlig;+trep;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+tlig;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-RegularItalic.otf]:mode=node;script=latn;language=DFLT;+t
+lig;+trep;+tlig;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-RegularItalic.otf]:mode=node;script=latn;language=DFLT;+t
+lig;+trep;+tlig;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+tlig;+trep;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+tlig;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-RegularItalic.otf" unsuccessful, fa
+lling back to file:
+luaotfload | load : path lookup of "FiraSans-RegularItalic.otf" unsuccessful, fa
+lling back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(1)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Renderer=Basic,Numbers =
+. {Proportional,OldStyle},UprightFont = *-Regular,ItalicFont =
+. *-RegularItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Regular.otf]:mode=base;script=latn;language=DFLT;+tlig;+t
+rep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Regular.otf]:mode=base;script=latn;language=DFLT;+tlig;+t
+rep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=base;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=base;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-RegularItalic.otf]:mode=base;script=latn;language=DFLT;+t
+lig;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-RegularItalic.otf]:mode=base;script=latn;language=DFLT;+t
+lig;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=base;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=base;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  T1/lmss/m/n --> EU2/FiraSans(1)/m/n on input line 136.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/lmss/bx/n --> EU2/FiraSans(1)/bx/n on input line 136.
+
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-RegularItalic.otf" unsuccessful, fa
+lling back to file:
+luaotfload | load : path lookup of "FiraSans-RegularItalic.otf" unsuccessful, fa
+lling back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(2)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Proportional,OldStyle},UprightFont = *-Regular,ItalicFont =
+. *-RegularItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Regular.otf]:mode=node;script=latn;language=DFLT;+tlig;+t
+rep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Regular.otf]:mode=node;script=latn;language=DFLT;+tlig;+t
+rep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-RegularItalic.otf]:mode=node;script=latn;language=DFLT;+t
+lig;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-RegularItalic.otf]:mode=node;script=latn;language=DFLT;+t
+lig;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-RegularItalic.otf" unsuccessful, fa
+lling back to file:
+luaotfload | load : path lookup of "FiraSans-RegularItalic.otf" unsuccessful, fa
+lling back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(3)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Proportional,Lining},UprightFont = *-Regular,ItalicFont =
+. *-RegularItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Regular.otf]:mode=node;script=latn;language=DFLT;+tlig;+t
+rep;+pnum;+lnum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Regular.otf]:mode=node;script=latn;language=DFLT;+tlig;+t
+rep;+pnum;+lnum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+lnum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+lnum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-RegularItalic.otf]:mode=node;script=latn;language=DFLT;+t
+lig;+trep;+pnum;+lnum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-RegularItalic.otf]:mode=node;script=latn;language=DFLT;+t
+lig;+trep;+pnum;+lnum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+lnum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+lnum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-RegularItalic.otf" unsuccessful, fa
+lling back to file:
+luaotfload | load : path lookup of "FiraSans-RegularItalic.otf" unsuccessful, fa
+lling back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(4)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Monospaced,OldStyle},UprightFont = *-Regular,ItalicFont =
+. *-RegularItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Regular.otf]:mode=node;script=latn;language=DFLT;+tlig;+t
+rep;+tnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Regular.otf]:mode=node;script=latn;language=DFLT;+tlig;+t
+rep;+tnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+tnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+tnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-RegularItalic.otf]:mode=node;script=latn;language=DFLT;+t
+lig;+trep;+tnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-RegularItalic.otf]:mode=node;script=latn;language=DFLT;+t
+lig;+trep;+tnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+tnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+tnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "FiraSans-Thin.otf" unsuccessful, falling bac
+k to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/firasans
+-thin.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/ot
+f/firasans-thin.luc)
+luaotfload | load : path lookup of "FiraSans-Thin.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Thin.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Thin.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-ThinItalic.otf" unsuccessful, falli
+ng back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/fi
+rasans-thinitalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/gene
+ric/fonts/otf/firasans-thinitalic.luc)
+luaotfload | load : path lookup of "FiraSans-ThinItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(5)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Proportional,OldStyle},UprightFont = *-Thin,ItalicFont =
+. *-ThinItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Thin.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Thin.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-ThinItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-ThinItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-Light.otf" unsuccessful, falling ba
+ck to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/firasan
+s-light.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/
+otf/firasans-light.luc)
+luaotfload | load : path lookup of "FiraSans-Light.otf" unsuccessful, falling ba
+ck to file:
+luaotfload | load : path lookup of "FiraSans-Light.otf" unsuccessful, falling ba
+ck to file:
+luaotfload | load : path lookup of "FiraSans-Light.otf" unsuccessful, falling ba
+ck to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-LightItalic.otf" unsuccessful, fall
+ing back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/f
+irasans-lightitalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/ge
+neric/fonts/otf/firasans-lightitalic.luc)
+luaotfload | load : path lookup of "FiraSans-LightItalic.otf" unsuccessful, fall
+ing back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(6)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Proportional,OldStyle},UprightFont = *-Light,ItalicFont =
+. *-LightItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Light.otf]:mode=node;script=latn;language=DFLT;+tlig;+tre
+p;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Light.otf]:mode=node;script=latn;language=DFLT;+tlig;+tre
+p;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-LightItalic.otf]:mode=node;script=latn;language=DFLT;+tli
+g;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-LightItalic.otf]:mode=node;script=latn;language=DFLT;+tli
+g;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-ExtraLight.otf" unsuccessful, falli
+ng back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/fi
+rasans-extralight.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/gene
+ric/fonts/otf/firasans-extralight.luc)
+luaotfload | load : path lookup of "FiraSans-ExtraLight.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-ExtraLight.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-ExtraLight.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-ExtraLightItalic.otf" unsuccessful,
+ falling back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/
+otf/firasans-extralightitalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luate
+x-cache/generic/fonts/otf/firasans-extralightitalic.luc)
+luaotfload | load : path lookup of "FiraSans-ExtraLightItalic.otf" unsuccessful,
+ falling back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(7)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Proportional,OldStyle},UprightFont = *-ExtraLight,ItalicFont =
+. *-ExtraLightItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-ExtraLight.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-ExtraLight.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-ExtraLightItalic.otf]:mode=node;script=latn;language=DFLT
+;+tlig;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-ExtraLightItalic.otf]:mode=node;script=latn;language=DFLT
+;+tlig;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-UltraLight.otf" unsuccessful, falli
+ng back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/fi
+rasans-ultralight.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/gene
+ric/fonts/otf/firasans-ultralight.luc)
+luaotfload | load : path lookup of "FiraSans-UltraLight.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-UltraLight.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-UltraLight.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-UltraLightItalic.otf" unsuccessful,
+ falling back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/
+otf/firasans-ultralightitalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luate
+x-cache/generic/fonts/otf/firasans-ultralightitalic.luc)
+luaotfload | load : path lookup of "FiraSans-UltraLightItalic.otf" unsuccessful,
+ falling back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(8)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Proportional,OldStyle},UprightFont = *-UltraLight,ItalicFont =
+. *-UltraLightItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-UltraLight.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-UltraLight.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-UltraLightItalic.otf]:mode=node;script=latn;language=DFLT
+;+tlig;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-UltraLightItalic.otf]:mode=node;script=latn;language=DFLT
+;+tlig;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-Medium.otf" unsuccessful, falling b
+ack to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/firasa
+ns-medium.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/font
+s/otf/firasans-medium.luc)
+luaotfload | load : path lookup of "FiraSans-Medium.otf" unsuccessful, falling b
+ack to file:
+luaotfload | load : path lookup of "FiraSans-Medium.otf" unsuccessful, falling b
+ack to file:
+luaotfload | load : path lookup of "FiraSans-Medium.otf" unsuccessful, falling b
+ack to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-MediumItalic.otf" unsuccessful, fal
+ling back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/
+firasans-mediumitalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/
+generic/fonts/otf/firasans-mediumitalic.luc)
+luaotfload | load : path lookup of "FiraSans-MediumItalic.otf" unsuccessful, fal
+ling back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(9)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Proportional,OldStyle},UprightFont = *-Medium,ItalicFont =
+. *-MediumItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Medium.otf]:mode=node;script=latn;language=DFLT;+tlig;+tr
+ep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Medium.otf]:mode=node;script=latn;language=DFLT;+tlig;+tr
+ep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-MediumItalic.otf]:mode=node;script=latn;language=DFLT;+tl
+ig;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-MediumItalic.otf]:mode=node;script=latn;language=DFLT;+tl
+ig;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-Book.otf" unsuccessful, falling bac
+k to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/firasans
+-book.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/ot
+f/firasans-book.luc)(save: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fo
+nts/otf/firasans-book.lua)(save: /home/tsby/.texlive/texmf-var/luatex-cache/gene
+ric/fonts/otf/firasans-book.luc)
+luaotfload | load : path lookup of "FiraSans-Book.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Book.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Book.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-Bold.otf" unsuccessful, falling bac
+k to file:
+luaotfload | load : path lookup of "FiraSans-BookItalic.otf" unsuccessful, falli
+ng back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/fi
+rasans-bookitalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/gene
+ric/fonts/otf/firasans-bookitalic.luc)
+luaotfload | load : path lookup of "FiraSans-BookItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+luaotfload | load : path lookup of "FiraSans-BoldItalic.otf" unsuccessful, falli
+ng back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(10)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Proportional,OldStyle},UprightFont = *-Book,ItalicFont =
+. *-BookItalic,BoldFont = *-Bold,BoldItalicFont = *-BoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Book.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Book.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Bold.otf]:mode=node;script=latn;language=DFLT;+tlig;+trep
+;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BookItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BookItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-BoldItalic.otf]:mode=node;script=latn;language=DFLT;+tlig
+;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-SemiBold.otf" unsuccessful, falling
+ back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/fira
+sans-semibold.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/
+fonts/otf/firasans-semibold.luc)
+luaotfload | load : path lookup of "FiraSans-SemiBold.otf" unsuccessful, falling
+ back to file:
+luaotfload | load : path lookup of "FiraSans-SemiBold.otf" unsuccessful, falling
+ back to file:
+luaotfload | load : path lookup of "FiraSans-SemiBold.otf" unsuccessful, falling
+ back to file:
+luaotfload | load : path lookup of "FiraSans-SemiBoldItalic.otf" unsuccessful, f
+alling back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/ot
+f/firasans-semibolditalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-ca
+che/generic/fonts/otf/firasans-semibolditalic.luc)
+luaotfload | load : path lookup of "FiraSans-SemiBoldItalic.otf" unsuccessful, f
+alling back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(11)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Proportional,OldStyle},UprightFont = *-SemiBold,ItalicFont =
+. *-SemiBoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-SemiBold.otf]:mode=node;script=latn;language=DFLT;+tlig;+
+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-SemiBold.otf]:mode=node;script=latn;language=DFLT;+tlig;+
+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-SemiBoldItalic.otf]:mode=node;script=latn;language=DFLT;+
+tlig;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-SemiBoldItalic.otf]:mode=node;script=latn;language=DFLT;+
+tlig;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-ExtraBold.otf" unsuccessful, fallin
+g back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/fir
+asans-extrabold.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generi
+c/fonts/otf/firasans-extrabold.luc)
+luaotfload | load : path lookup of "FiraSans-ExtraBold.otf" unsuccessful, fallin
+g back to file:
+luaotfload | load : path lookup of "FiraSans-ExtraBold.otf" unsuccessful, fallin
+g back to file:
+luaotfload | load : path lookup of "FiraSans-ExtraBold.otf" unsuccessful, fallin
+g back to file:
+luaotfload | load : path lookup of "FiraSans-ExtraBoldItalic.otf" unsuccessful, 
+falling back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/o
+tf/firasans-extrabolditalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-
+cache/generic/fonts/otf/firasans-extrabolditalic.luc)
+luaotfload | load : path lookup of "FiraSans-ExtraBoldItalic.otf" unsuccessful, 
+falling back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(12)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Proportional,OldStyle},UprightFont = *-ExtraBold,ItalicFont =
+. *-ExtraBoldItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-ExtraBold.otf]:mode=node;script=latn;language=DFLT;+tlig;
++trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-ExtraBold.otf]:mode=node;script=latn;language=DFLT;+tlig;
++trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-ExtraBoldItalic.otf]:mode=node;script=latn;language=DFLT;
++tlig;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-ExtraBoldItalic.otf]:mode=node;script=latn;language=DFLT;
++tlig;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "FiraSans-Heavy.otf" unsuccessful, falling ba
+ck to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/firasan
+s-heavy.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/
+otf/firasans-heavy.luc)
+luaotfload | load : path lookup of "FiraSans-Heavy.otf" unsuccessful, falling ba
+ck to file:
+luaotfload | load : path lookup of "FiraSans-Heavy.otf" unsuccessful, falling ba
+ck to file:
+luaotfload | load : path lookup of "FiraSans-Heavy.otf" unsuccessful, falling ba
+ck to file:
+luaotfload | load : path lookup of "FiraSans-HeavyItalic.otf" unsuccessful, fall
+ing back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/f
+irasans-heavyitalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/ge
+neric/fonts/otf/firasans-heavyitalic.luc)
+luaotfload | load : path lookup of "FiraSans-HeavyItalic.otf" unsuccessful, fall
+ing back to file:
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(13)' created for font 'FiraSans' with options
+. [Ligatures = TeX,Scale = .86,Extension = .otf,Numbers =
+. {Proportional,OldStyle},UprightFont = *-Heavy,ItalicFont = *-HeavyItalic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Heavy.otf]:mode=node;script=latn;language=DFLT;+tlig;+tre
+p;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-Heavy.otf]:mode=node;script=latn;language=DFLT;+tlig;+tre
+p;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-HeavyItalic.otf]:mode=node;script=latn;language=DFLT;+tli
+g;+trep;+pnum;+onum;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->s*[.86]"[FiraSans-HeavyItalic.otf]:mode=node;script=latn;language=DFLT;+tli
+g;+trep;+pnum;+onum;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+) (/usr/share/texmf-dist/tex/latex/newtxsf/newtxsf.sty
+Package: newtxsf 2015/07/04 v1.03
+
+`newtxsf' v1.03, 2015/07/04 Math macros based on STIX sans serif and txfonts (m
+sharpe) (/usr/share/texmf-dist/tex/generic/kastrup/binhex.tex)
+\tx@Isdigit=\count149
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 43.
+LaTeX Font Info:    Encoding `T1' has changed to `EU2' for symbol font
+(Font)              `operators' in the math version `normal' on input line 43.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  T1/lmss/m/n --> EU2/FiraSans(0)/m/n on input line 43.
+LaTeX Font Info:    Encoding `T1' has changed to `EU2' for symbol font
+(Font)              `operators' in the math version `bold' on input line 43.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/lmss/bx/n --> EU2/FiraSans(0)/m/n on input line 43.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU2/FiraSans(0)/m/n --> EU2/FiraSans(0)/b/n on input lin
+e 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  EU2/FiraSans(1)/m/n --> EU2/FiraSans(0)/m/n on input lin
+e 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  EU2/FiraSans(1)/bx/n --> EU2/FiraSans(0)/m/n on input li
+ne 50.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 51.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  T1/lmss/m/sl --> EU2/FiraSans(0)/m/it on input line 51.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/lmss/bx/sl --> EU2/FiraSans(0)/m/it on input line 51.
+
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 54.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  T1/lmss/bx/n --> EU2/FiraSans(0)/b/n on input line 54.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T1/lmss/bx/n --> EU2/FiraSans(0)/b/n on input line 54.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  EU2/FiraSans(0)/m/it --> EU2/FiraSans(0)/b/it on input l
+ine 55.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  EU2/FiraSans(0)/m/n --> EU2/FiraSans(0)/b/n on input lin
+e 56.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  EU2/lmtt/m/n --> EU2/lmtt/b/n on input line 57.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 62.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ntxsfmi/m/it on input line 62.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ntxsfmi/m/it on input line 62.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ntxsfmi/m/it --> OML/ntxsfmi/b/it on input line 63.
+\symlettersA=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxsfmia/m/it --> U/ntxsfmia/b/it on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 78.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ntxsy/m/n on input line 78.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ntxsy/m/n on input line 78.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/ntxsy/m/n --> OMS/ntxsy/b/n on input line 79.
+\symAMSm=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 99.
+\symsymbolsC=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 121.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 134.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 13
+4.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 134.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 134.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 134.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 135.
+\symlargesymbolsTXA=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 146.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 229.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 230.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 231.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 232.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 233.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 234.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 235.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \mid on input line 239.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 241.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 242.
+LaTeX Font Info:    Redeclaring math delimiter \Arrowvert on input line 244.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 245.
+LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 247.
+LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \m@thbbch@rA on input line 1222.
+LaTeX Info: Redefining \not on input line 1473.
+)
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2015/10/21 v3.1 programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex2.sty
+Package: biblatex2 2015/10/21 v3.1 programmable bibliographies (biber) (PK/JW/AB
+)
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+)))
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count150
+
+(/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count151
+\c@listtotal=\count152
+\c@listcount=\count153
+\c@liststart=\count154
+\c@liststop=\count155
+\c@citecount=\count156
+\c@citetotal=\count157
+\c@multicitecount=\count158
+\c@multicitetotal=\count159
+\c@instcount=\count160
+\c@maxnames=\count161
+\c@minnames=\count162
+\c@maxitems=\count163
+\c@minitems=\count164
+\c@citecounter=\count165
+\c@savedcitecounter=\count166
+\c@uniquelist=\count167
+\c@uniquename=\count168
+\c@refsection=\count169
+\c@refsegment=\count170
+\c@maxextratitle=\count171
+\c@maxextratitleyear=\count172
+\c@maxextrayear=\count173
+\c@maxextraalpha=\count174
+\c@abbrvpenalty=\count175
+\c@highnamepenalty=\count176
+\c@lownamepenalty=\count177
+\c@maxparens=\count178
+\c@parenlevel=\count179
+\blx@tempcnta=\count180
+\blx@tempcntb=\count181
+\blx@tempcntc=\count182
+\blx@maxsection=\count183
+\blx@maxsegment@0=\count184
+\blx@notetype=\count185
+\blx@parenlevel@text=\count186
+\blx@parenlevel@foot=\count187
+\blx@sectionciteorder@0=\count188
+\labelnumberwidth=\skip57
+\labelalphawidth=\skip58
+\biblabelsep=\skip59
+\bibitemsep=\skip60
+\bibnamesep=\skip61
+\bibinitsep=\skip62
+\bibparsep=\skip63
+\bibhang=\skip64
+\blx@bcfin=\read2
+\blx@bcfout=\write4
+\c@mincomprange=\count189
+\c@maxcomprange=\count190
+\c@mincompwidth=\count191
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'chicago-authordate.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count192
+\c@savedafterword=\count193
+\c@annotator=\count194
+\c@savedannotator=\count195
+\c@author=\count196
+\c@savedauthor=\count197
+\c@bookauthor=\count198
+\c@savedbookauthor=\count199
+\c@commentator=\count266
+\c@savedcommentator=\count267
+\c@editor=\count268
+\c@savededitor=\count269
+\c@editora=\count270
+\c@savededitora=\count271
+\c@editorb=\count272
+\c@savededitorb=\count273
+\c@editorc=\count274
+\c@savededitorc=\count275
+\c@foreword=\count276
+\c@savedforeword=\count277
+\c@holder=\count278
+\c@savedholder=\count279
+\c@introduction=\count280
+\c@savedintroduction=\count281
+\c@namea=\count282
+\c@savednamea=\count283
+\c@nameb=\count284
+\c@savednameb=\count285
+\c@namec=\count286
+\c@savednamec=\count287
+\c@translator=\count288
+\c@savedtranslator=\count289
+\c@shortauthor=\count290
+\c@savedshortauthor=\count291
+\c@shorteditor=\count292
+\c@savedshorteditor=\count293
+\c@labelname=\count294
+\c@savedlabelname=\count295
+\c@institution=\count296
+\c@savedinstitution=\count297
+\c@lista=\count298
+\c@savedlista=\count299
+\c@listb=\count300
+\c@savedlistb=\count301
+\c@listc=\count302
+\c@savedlistc=\count303
+\c@listd=\count304
+\c@savedlistd=\count305
+\c@liste=\count306
+\c@savedliste=\count307
+\c@listf=\count308
+\c@savedlistf=\count309
+\c@location=\count310
+\c@savedlocation=\count311
+\c@organization=\count312
+\c@savedorganization=\count313
+\c@origlocation=\count314
+\c@savedoriglocation=\count315
+\c@origpublisher=\count316
+\c@savedorigpublisher=\count317
+\c@publisher=\count318
+\c@savedpublisher=\count319
+\c@language=\count320
+\c@savedlanguage=\count321
+\c@pageref=\count322
+\c@savedpageref=\count323
+\shorthandwidth=\skip65
+\shortjournalwidth=\skip66
+\shortserieswidth=\skip67
+\shorttitlewidth=\skip68
+\shortauthorwidth=\skip69
+\shorteditorwidth=\skip70
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2015/10/21 v3.1 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 
+\c@textcitecount=\count324
+\c@textcitetotal=\count325
+\c@textcitemaxnames=\count326
+\c@biburlnumpenalty=\count327
+\c@biburlucpenalty=\count328
+\c@biburllcpenalty=\count329
+\c@smartand=\count330
+)
+Package biblatex Info: Trying to load bibliography style 'chicago-authordate'...
+
+Package biblatex Info: ... file 'chicago-authordate.bbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.bbx
+File: chicago-authordate.bbx 2014/08/15 v 2.9a biblatex bibliography style
+\lositemsep=\skip71
+)
+Package biblatex Info: Trying to load citation style 'chicago-authordate'...
+Package biblatex Info: ... file 'chicago-authordate.cbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.cbx
+File: chicago-authordate.cbx 2014/08/15 v 2.9a biblatex citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+(/usr/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
+(/usr/share/texmf-dist/tex/latex/polyglossia/gloss-german.ldf
+File: gloss-german.ldf polyglossia: module for german
+
+(/usr/share/texmf-dist/tex/latex/polyglossia/babelsh.def
+File: babelsh.def 2013/04/30 Babel common definitions for shorthands
+ Taken verbatim from babel.def (2013/04/15 v3.9e)
+)
+Package polyglossia Info: Making " an active character on input line 79.
+)
+Package polyglossia Info: Default language is german.
+luaotfload | cache : Lookup cache loaded from /home/tsby/.texlive/texmf-var/luat
+ex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"(compilin
+g luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/cormorant-regular.luc)(load
+ luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/cormorant-reg
+ular.luc)
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+\g__fontspec_family_Cormorant_int=\count331
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-BoldItalic.ttf"(compi
+ling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/cormorant-bolditalic.luc
+)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/cormora
+nt-bolditalic.luc)
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Bold.ttf"(compiling l
+uc: /var/lib/texmf/luatex-cache/generic/fonts/otf/cormorant-bold.luc)(load luc: 
+/home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/cormorant-bold.luc)
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Italic.ttf"(compiling
+ luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/cormorant-italic.luc)(load l
+uc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/cormorant-itali
+c.luc)
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Bold.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Bold.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Italic.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Italic.ttf"
+luaotfload | aux : font no 48 (Cormorant-Italic) does not define feature smcp fo
+r script latn with language dflt
+luaotfload | aux : no font with id 48
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-BoldItalic.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-BoldItalic.ttf"
+luaotfload | aux : font no 46 (Cormorant-BoldItalic) does not define feature smc
+p for script latn with language dflt
+luaotfload | aux : no font with id 46
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Cormorant(0)' created for font 'Cormorant' with options
+. [Ligatures=TeX].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Cormorant:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Cormorant:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"Cormorant/B:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Cormorant/B:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. <->"Cormorant/I:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Cormorant/BI:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-BoldItalic.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Bold.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Italic.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Bold.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Bold.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Italic.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Italic.ttf"
+luaotfload | aux : font no 48 (Cormorant-Italic) does not define feature smcp fo
+r script latn with language dflt
+luaotfload | aux : no font with id 48
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-BoldItalic.ttf"
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-BoldItalic.ttf"
+luaotfload | aux : font no 46 (Cormorant-BoldItalic) does not define feature smc
+p for script latn with language dflt
+luaotfload | aux : no font with id 46
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Cormorant(1)' created for font 'Cormorant' with options
+. [Renderer=Basic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Cormorant:mode=base;script=latn;language=DFLT;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"Cormorant:mode=base;script=latn;language=DFLT;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"Cormorant/B:mode=base;script=latn;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"Cormorant/B:mode=base;script=latn;language=DFLT;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. <->"Cormorant/I:mode=base;script=latn;language=DFLT;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Cormorant/BI:mode=base;script=latn;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  EU2/FiraSans(0)/m/n --> EU2/Cormorant(1)/m/n on input li
+ne 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  EU2/FiraSans(0)/m/it --> EU2/Cormorant(1)/m/it on input 
+line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  EU2/FiraSans(0)/b/n --> EU2/Cormorant(1)/bx/n on input l
+ine 28.
+LaTeX Font Info:    Font shape `EU2/FiraSans(0)/m/n' will be
+(Font)              scaled to size 8.6pt on input line 28.
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"(save: /home/t
+sby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/firasans-book.lua)(save: /
+home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/firasans-book.luc)
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-BoldItalic.ttf"(save: /
+home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/firasans-bolditalic.
+lua)(save: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/firasans
+-bolditalic.luc)
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Bold.ttf"(save: /home/t
+sby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/firasans-bold.lua)(save: /
+home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/firasans-bold.luc)
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Italic.ttf"(compiling l
+uc: /var/lib/texmf/luatex-cache/generic/fonts/otf/firasans-italic.luc)(load luc:
+ /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/firasans-italic.lu
+c)
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
+LaTeX Font Info:    Font shape `EU2/FiraSans(0)/m/n' will be
+(Font)              scaled to size 10.32pt on input line 29.
+luaotfload | load : path lookup of "FiraSans-Regular.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Bold.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Bold.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Italic.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Italic.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-BoldItalic.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-BoldItalic.ttf"
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FiraSans(14)' created for font 'FiraSans' with options
+. [Ligatures=TeX].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"FiraSans:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"FiraSans:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"FiraSans/B:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"FiraSans/B:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. <->"FiraSans/I:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+. 
+. * 'small caps' with NFSS spec.:
+. <->"FiraSans/I:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"FiraSans/BI:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. <->"FiraSans/BI:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp;"
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Regular.otf
+"(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/sourcecodepro-reg
+ular.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf
+/sourcecodepro-regular.luc)
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Regular.otf
+"
+\g__fontspec_family_SourceCodePro_int=\count332
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Regular.otf
+"
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-BoldIt.otf"
+(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/sourcecodepro-bold
+it.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/s
+ourcecodepro-boldit.luc)
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Regular.otf
+"
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Bold.otf"(c
+ompiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/sourcecodepro-bold.l
+uc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/sourc
+ecodepro-bold.luc)
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Regular.otf
+"
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-It.otf"(com
+piling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/sourcecodepro-it.luc)(
+load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/sourcecod
+epro-it.luc)
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-Regular.otf"
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-Regular.otf"
+luaotfload | aux : font no 55 (SourceCodePro-Regular) does not define feature sm
+cp for script latn with language dflt
+luaotfload | aux : no font with id 55
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-Bold.otf"
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-Bold.otf"
+luaotfload | aux : font no 57 (SourceCodePro-Bold) does not define feature smcp 
+for script latn with language dflt
+luaotfload | aux : no font with id 57
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-It.otf"
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-It.otf"
+luaotfload | aux : font no 58 (SourceCodePro-It) does not define feature smcp fo
+r script latn with language dflt
+luaotfload | aux : no font with id 58
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-BoldIt.otf"
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-BoldIt.otf"
+luaotfload | aux : font no 56 (SourceCodePro-BoldIt) does not define feature smc
+p for script latn with language dflt
+luaotfload | aux : no font with id 56
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SourceCodePro(0)' created for font 'Source Code Pro' with
+. options [WordSpace={1,0,0},PunctuationSpace=WordSpace].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"SourceCodePro:mode=node;script=latn;language=DFLT;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
+. 
+. * 'bold' with NFSS spec.:
+. <->"SourceCodePro/B:mode=node;script=latn;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
+. 
+. * 'italic' with NFSS spec.:
+. <->"SourceCodePro/I:mode=node;script=latn;language=DFLT;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"SourceCodePro/BI:mode=node;script=latn;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font =0\fontdimen 3\font
+. \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font 
+.................................................
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Regular.otf
+"
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Regular.otf
+"
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Regular.otf
+"
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-BoldIt.otf"
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Regular.otf
+"
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Bold.otf"
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-Regular.otf
+"
+luaotfload | load : Lookup/name: "Source Code Pro" -> "SourceCodePro-It.otf"
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-Regular.otf"
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-Regular.otf"
+luaotfload | aux : font no 55 (SourceCodePro-Regular) does not define feature sm
+cp for script latn with language dflt
+luaotfload | aux : no font with id 55
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-Bold.otf"
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-Bold.otf"
+luaotfload | aux : font no 57 (SourceCodePro-Bold) does not define feature smcp 
+for script latn with language dflt
+luaotfload | aux : no font with id 57
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-It.otf"
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-It.otf"
+luaotfload | aux : font no 58 (SourceCodePro-It) does not define feature smcp fo
+r script latn with language dflt
+luaotfload | aux : no font with id 58
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-BoldIt.otf"
+luaotfload | load : Lookup/name: "SourceCodePro" -> "SourceCodePro-BoldIt.otf"
+luaotfload | aux : font no 56 (SourceCodePro-BoldIt) does not define feature smc
+p for script latn with language dflt
+luaotfload | aux : no font with id 56
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SourceCodePro(1)' created for font 'Source Code Pro' with
+. options [Renderer=Basic].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"SourceCodePro:mode=base;script=latn;language=DFLT;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"SourceCodePro/B:mode=base;script=latn;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. <->"SourceCodePro/I:mode=base;script=latn;language=DFLT;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"SourceCodePro/BI:mode=base;script=latn;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  EU2/lmtt/m/n --> EU2/SourceCodePro(1)/m/n on input line 
+30.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  EU2/lmtt/b/n --> EU2/SourceCodePro(1)/bx/n on input line
+ 30.
+)
+(/usr/share/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for english
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'polyglossia' package.
+
+
+Package csquotes Warning: Using preliminary 'polyglossia' interface.
+(csquotes)                Some of the multilingual features may not
+(csquotes)                work as expected.
+
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'german'.
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2015/10/21 v3.1 biblatex localization (PK/JW/AB)
+) (./index.aux
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+luatex-hyphen: loading patterns and exceptions for: ngerman (\language31)
+luatex-hyphen: info: no hyphenation exceptions for this language
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2015/10/21 v3.1 biblatex localization (PK/JW/AB)
+))
+\openout1 = index.aux
+
+LaTeX Font Info:    Checking defaults for OML/ntxsfmi/m/it on input line 5.
+LaTeX Font Info:    Try loading font information for OML+ntxsfmi on input line 5
+.
+
+(/usr/share/texmf-dist/tex/latex/newtxsf/omlntxsfmi.fd
+File: omlntxsfmi.fd 2014/11/16 Fontinst v1.933 font definitions for OML/ntxsfmi.
+
+)
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 5.
+
+(/usr/share/texmf-dist/tex/latex/newtx/omsntxsy.fd
+File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 5.
+
+(/usr/share/texmf-dist/tex/latex/newtx/untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 5.
+
+(/usr/share/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count333
+\scratchdimen=\dimen148
+\scratchbox=\box44
+\nofMPsegments=\count334
+\nofMParguments=\count335
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count336
+\MPscratchDim=\dimen149
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
+\everyMPtoPDFconversion=\toks26
+) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
+
+(/usr/share/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
+\pdftexcmds@toks=\toks27
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.tif,.jpeg,.PNG,.PDF,.JPG,.JPEG,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+luaotfload | load : path lookup of "latinmodern-math.otf" unsuccessful, falling 
+back to file:(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/latin
+modern-math.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fo
+nts/otf/latinmodern-math.luc)
+luaotfload | load : path lookup of "latinmodern-math.otf" unsuccessful, falling 
+back to file:
+\g__fontspec_family_latinmodern-math.otf_int=\count339
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | aux : font no 61 (LatinModernMath-Regular) does not define feature 
+smcp for script math with language dflt
+luaotfload | aux : no font with id 61
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | aux : font no 61 (LatinModernMath-Regular) does not define feature 
+smcp for script math with language dflt
+luaotfload | aux : no font with id 61
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'latinmodern-math.otf(0)' created for font
+. 'latinmodern-math.otf' with options
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=12-},{Size=8.8-12,Font=latinmodern-math.otf,Style=MathScript},{Size=-8.8,Font=
+latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <12->"[latinmodern-math]:mode=base;script=math;language=DFLT;"<8.8-12>"[latinm
+odern-math]:mode=base;script=math;language=DFLT;+ssty=0;"<-8.8>"[latinmodern-mat
+h]:mode=base;script=math;language=DFLT;+ssty=1;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"[latinmodern-math]:mode=base;script=math;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "latinmodern-math.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "latinmodern-math.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "latinmodern-math.otf" unsuccessful, falling 
+back to file:
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  EU2/FiraSans(0)/m/n --> EU2/latinmodern-math.otf(0)/m/n 
+on input line 5.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU2/FiraSans(0)/b/n --> EU2/latinmodern-math.otf(0)/bx/n
+ on input line 5.
+luaotfload | load : path lookup of "latinmodern-math.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "latinmodern-math.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | aux : font no 61 (LatinModernMath-Regular) does not define feature 
+smcp for script math with language dflt
+luaotfload | aux : no font with id 61
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | aux : font no 61 (LatinModernMath-Regular) does not define feature 
+smcp for script math with language dflt
+luaotfload | aux : no font with id 61
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'latinmodern-math.otf(1)' created for font
+. 'latinmodern-math.otf' with options
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=12-},{Size=8.8-12,Font=latinmodern-math.otf,Style=MathScript},{Size=-8.8,Font=
+latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},Sc
+ale=1.00001,FontAdjustment={\fontdimen
+. 8\font =532414.464sp\relax \fontdimen 9\font =309854.208sp\relax \fontdimen
+. 10\font =349175.808sp\relax \fontdimen 11\font =539492.352sp\relax
+. \fontdimen 12\font =271319.04sp\relax \fontdimen 13\font =285474.816sp\relax
+. \fontdimen 14\font =285474.816sp\relax \fontdimen 15\font
+. =227278.848sp\relax \fontdimen 16\font =194248.704sp\relax \fontdimen
+. 17\font =0sp\relax \fontdimen 18\font =196608sp\relax \fontdimen 19\font
+. =157286.4sp\relax \fontdimen 20\font =0pt\relax \fontdimen 21\font
+. =0pt\relax \fontdimen 22\font =196608sp\relax }].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <12->s*[1.00001]"[latinmodern-math]:mode=base;script=math;language=DFLT;"<8.8-
+12>s*[1.00001]"[latinmodern-math]:mode=base;script=math;language=DFLT;+ssty=0;"<
+-8.8>s*[1.00001]"[latinmodern-math]:mode=base;script=math;language=DFLT;+ssty=1;
+"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 8\font =532414.464sp\relax \fontdimen 9\font =309854.208sp\relax
+. \fontdimen 10\font =349175.808sp\relax \fontdimen 11\font
+. =539492.352sp\relax \fontdimen 12\font =271319.04sp\relax \fontdimen 13\font
+. =285474.816sp\relax \fontdimen 14\font =285474.816sp\relax \fontdimen
+. 15\font =227278.848sp\relax \fontdimen 16\font =194248.704sp\relax
+. \fontdimen 17\font =0sp\relax \fontdimen 18\font =196608sp\relax \fontdimen
+. 19\font =157286.4sp\relax \fontdimen 20\font =0pt\relax \fontdimen 21\font
+. =0pt\relax \fontdimen 22\font =196608sp\relax 
+. 
+. * 'bold' with NFSS spec.:
+. <->s*[1.00001]"[latinmodern-math]:mode=base;script=math;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 8\font =532414.464sp\relax \fontdimen 9\font =309854.208sp\relax
+. \fontdimen 10\font =349175.808sp\relax \fontdimen 11\font
+. =539492.352sp\relax \fontdimen 12\font =271319.04sp\relax \fontdimen 13\font
+. =285474.816sp\relax \fontdimen 14\font =285474.816sp\relax \fontdimen
+. 15\font =227278.848sp\relax \fontdimen 16\font =194248.704sp\relax
+. \fontdimen 17\font =0sp\relax \fontdimen 18\font =196608sp\relax \fontdimen
+. 19\font =157286.4sp\relax \fontdimen 20\font =0pt\relax \fontdimen 21\font
+. =0pt\relax \fontdimen 22\font =196608sp\relax 
+.................................................
+LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 5.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/ntxsy/m/n --> EU2/latinmodern-math.otf(1)/m/n on inp
+ut line 5.
+LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 5.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/ntxsy/b/n --> EU2/latinmodern-math.otf(1)/bx/n on in
+put line 5.
+luaotfload | load : path lookup of "latinmodern-math.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "latinmodern-math.otf" unsuccessful, falling 
+back to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | aux : font no 61 (LatinModernMath-Regular) does not define feature 
+smcp for script math with language dflt
+luaotfload | aux : no font with id 61
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | aux : font no 61 (LatinModernMath-Regular) does not define feature 
+smcp for script math with language dflt
+luaotfload | aux : no font with id 61
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'latinmodern-math.otf(2)' created for font
+. 'latinmodern-math.otf' with options
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=12-},{Size=8.8-12,Font=latinmodern-math.otf,Style=MathScript},{Size=-8.8,Font=
+latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},Sc
+ale=0.99999,FontAdjustment={\fontdimen
+. 8\font =31457.28sp\relax \fontdimen 9\font =157286.4sp\relax \fontdimen
+. 10\font =131334.144sp\relax \fontdimen 11\font =87293.952sp\relax \fontdimen
+. 12\font =471859.2sp\relax \fontdimen 13\font =0pt\relax }].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <12->s*[0.99999]"[latinmodern-math]:mode=base;script=math;language=DFLT;"<8.8-
+12>s*[0.99999]"[latinmodern-math]:mode=base;script=math;language=DFLT;+ssty=0;"<
+-8.8>s*[0.99999]"[latinmodern-math]:mode=base;script=math;language=DFLT;+ssty=1;
+"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 8\font =31457.28sp\relax \fontdimen 9\font =157286.4sp\relax
+. \fontdimen 10\font =131334.144sp\relax \fontdimen 11\font =87293.952sp\relax
+. \fontdimen 12\font =471859.2sp\relax \fontdimen 13\font =0pt\relax 
+. 
+. * 'bold' with NFSS spec.:
+. <->s*[0.99999]"[latinmodern-math]:mode=base;script=math;language=DFLT;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. \fontdimen 8\font =31457.28sp\relax \fontdimen 9\font =157286.4sp\relax
+. \fontdimen 10\font =131334.144sp\relax \fontdimen 11\font =87293.952sp\relax
+. \fontdimen 12\font =471859.2sp\relax \fontdimen 13\font =0pt\relax 
+.................................................
+LaTeX Font Info:    Encoding `LMX' has changed to `EU2' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 5.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  LMX/ntxexx/m/n --> EU2/latinmodern-math.otf(2)/m/n on in
+put line 5.
+LaTeX Font Info:    Encoding `LMX' has changed to `EU2' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 5.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/b/n --> EU2/latinmodern-math.otf(2)/bx/n on i
+nput line 5.
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout4 = index.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'index.bbl' found.
+
+(./index.bbl)
+Package biblatex Info: Reference section=0 on input line 5.
+Package biblatex Info: Reference segment=0 on input line 5.
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Regular.ttf"
+Package scrbase Info: activating german \abstractname on input line 5.
+luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Bold.ttf" [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+
+]
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Bold.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Bold.ttf"
+(./index.toc
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtxsf/ntxsfmi.vf.
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtxsf/ntxsfmi.vf.
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtxsf/ntxsfmi.vf.
+LaTeX Font Info:    Font shape `EU2/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 12.00018pt on input line 15.
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+LaTeX Font Info:    Font shape `EU2/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.41495pt on input line 15.
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+LaTeX Font Info:    Font shape `EU2/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.97696pt on input line 15.
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+LaTeX Font Info:    Font shape `EU2/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 11.99982pt on input line 15.
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+LaTeX Font Info:    Font shape `EU2/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.41469pt on input line 15.
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+LaTeX Font Info:    Font shape `EU2/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.97679pt on input line 15.
+luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
+ to file:
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 15.
+ (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for U+ntxsfmia on input line 15
+.
+
+(/usr/share/texmf-dist/tex/latex/newtxsf/untxsfmia.fd
+File: untxsfmia.fd 2014/11/16 Fontinst v1.933 font definitions for U/ntxsfmia.
+)
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtxsf/ntxsfmia.vf.
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtxsf/ntxsfmia.vf.
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtxsf/ntxsfmia.vf.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 15.
+
+(/usr/share/texmf-dist/tex/latex/newtx/untxsym.fd
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtx/ntxsym.vf.
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtx/ntxsym.vf.
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtx/ntxsym.vf.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 15.
+
+(/usr/share/texmf-dist/tex/latex/newtx/untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtx/ntxsyc.vf.
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtx/ntxsyc.vf.
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtx/ntxsyc.vf.
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtx/ntxexa.vf.
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtx/ntxexa.vf.
+luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
+lic/newtx/ntxexa.vf.)
+\tf@toc=\write5
+
+\openout5 = index.toc
+ [3
+
+
+] (./data/content.tex
+chapter 1.
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Bold.ttf" [4
+
+]) [5]
+LaTeX Font Info:    Font shape `EU2/FiraSans(0)/m/it' will be
+(Font)              scaled to size 10.32pt on input line 16.
+luaotfload | load : path lookup of "FiraSans-RegularItalic.otf" unsuccessful, fa
+lling back to file: [6
+
+] (./index.aux)
+Package logreq Info: Writing requests to 'index.run.xml'.
+
+\openout1 = index.run.xml
+)
+
+Here is how much of LuaTeX's memory you used:
+ 31699 strings out of 494897
+ 100000,1373583 words of node,token memory allocated
+ 741 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 5 kern, 10 attribute, 121 glue_spec, 10 att
+ribute_list, 1 write nodes
+   avail lists: 1:6,2:5744,3:83,4:701,5:127,6:1968,7:80,9:323,10:239
+ 33585 multiletter control sequences out of 65536+600000
+ 129 fonts using 29378303 bytes
+ 76i,15n,73p,1277b,2042s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-RegularItalic.otf></u
+sr/share/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/sha
+re/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/fon
+ts/TTF/FiraSans-Bold.ttf></usr/share/texmf-dist/fonts/opentype/public/fira/FiraS
+ans-Regular.otf></usr/share/fonts/TTF/Cormorant-Regular.ttf></usr/share/fonts/TT
+F/Cormorant-Bold.ttf>
+Output written on index.pdf (6 pages, 64019 bytes).
+
+PDF statistics: 72 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
