@@ -1,6 +1,8 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{../vwa-class/vwa}[2016/07/27 Vorwissenschaftliche Arbeit in Österreich]
 
+\directlua{dofile("../vwa-class/vwa.lua")} %TODO relative path
+
 \LoadClass{scrreprt}
 \KOMAoptions{paper=a4, fontsize=12pt, DIV=calc}
 
@@ -10,8 +12,8 @@
 \RequirePackage{amsmath} % math
 \RequirePackage{unicode-math}
 \RequirePackage{sfmath}
-%\RequirePackage[sfdefault,scaled=.85]{FiraSans}
-%\RequirePackage{newtxsf}
+\RequirePackage[sfdefault,scaled=.86]{FiraSans} %TODO set as math font
+\RequirePackage{newtxsf}
 \RequirePackage[backend=biber, style=chicago-authordate]{biblatex} % bib + cite
 \RequirePackage{chngcntr}
 
@@ -20,7 +22,8 @@
 }
 \ProcessOptions\relax
 
-\setmainlanguage[spelling=new, babelshorthands=true]{german}
+\setmainlanguage[spelling=new, variant=austrian, babelshorthands=true]{german}
+\renewcaptionname{german}{\abstractname}{Abriss}
 
 \setromanfont{Cormorant}
 \setsansfont{FiraSans}
@@ -38,19 +41,13 @@
   {\vfill\clearpage}
 \renewenvironment{abstract}[1][german]
   {\begin{abspage}\bigskip\selectlanguage{#1}%
-   \begin{center}\bfseries\abstractname\end{center}}
+   \begin{center}\bfseries\abstractname\end{center}} %TODO
   {\par\bigskip\end{abspage}}
-\directlua{
-  if "foo" == "bar" then
-    r = "abc"
-  else
-    r = "def"
-  end
-}
-%\newcommand{\abs}\directlua{if "absxxage" == "x" then tex.sprint("absp") else tex.sprint("other") end}
+\newcommand{\abs}[1][german]{\directlua{vwa_abs("\@currenvir")}\begin{abstract}[#1]}
+\newcommand{\toc}{\directlua{vwa_abs("\@currenvir")}\tableofcontents}
 
 \newcommand{\name}{\textsc}
 
-% TODO Add multi-lang support
+% TODO Add multi-lang support using \renewcaptionname
 \newcommand{\cf}{\iflanguage{german}{vgl.}{cf.}}
 %\newcommand{\Cf}{\MakeUppercase{\StrLeft{\cf}{1}}\StrGobbleLeft{\cf}{1}}
