@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{../vwa-class/vwa}[2016/04/16 Vorwissenschaftliche Arbeit in Österreich]
+\ProvidesClass{../vwa-class/vwa}[2016/07/27 Vorwissenschaftliche Arbeit in Österreich]
 
 \LoadClass{scrreprt}
 \KOMAoptions{paper=a4, fontsize=12pt, DIV=calc}
@@ -9,6 +9,9 @@
 \RequirePackage{csquotes} % lang-specific quotes
 \RequirePackage{amsmath} % math
 \RequirePackage{unicode-math}
+\RequirePackage{sfmath}
+%\RequirePackage[sfdefault,scaled=.85]{FiraSans}
+%\RequirePackage{newtxsf}
 \RequirePackage[backend=biber, style=chicago-authordate]{biblatex} % bib + cite
 \RequirePackage{chngcntr}
 
@@ -17,10 +20,11 @@
 }
 \ProcessOptions\relax
 
+\setmainlanguage[spelling=new, babelshorthands=true]{german}
+
 \setromanfont{Cormorant}
-\setsansfont{Noto Sans}
+\setsansfont{FiraSans}
 \setmonofont{Source Code Pro}
-\setmathfont{TeX Gyre Heros}
 
 \counterwithout{figure}{chapter}
 \counterwithout{equation}{chapter}
@@ -28,15 +32,22 @@
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
 
-% TODO Merge to one env
-\newenvironment{abstractpage}
+\newenvironment{abspage}
   {\clearpage\vspace*{\fill}\thispagestyle{plain}
   }
   {\vfill\clearpage}
-\newenvironment{mlabstract}[1]
-  {\bigskip\selectlanguage{#1}%
+\renewenvironment{abstract}[1][german]
+  {\begin{abspage}\bigskip\selectlanguage{#1}%
    \begin{center}\bfseries\abstractname\end{center}}
-  {\par\bigskip}
+  {\par\bigskip\end{abspage}}
+\directlua{
+  if "foo" == "bar" then
+    r = "abc"
+  else
+    r = "def"
+  end
+}
+%\newcommand{\abs}\directlua{if "absxxage" == "x" then tex.sprint("absp") else tex.sprint("other") end}
 
 \newcommand{\name}{\textsc}
 
