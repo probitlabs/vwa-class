@@ -26,10 +26,12 @@
 
 \setmainlanguage[spelling=new, variant=austrian, babelshorthands=true]{german}
 \renewcaptionname{german}{\abstractname}{Abriss}
+\newcaptionname{german}{\cf}{vgl.}
+\newcaptionname{english}{\cf}{vgl.}
 
 \setromanfont{Cormorant}
-\setsansfont{Source Sans Pro}
-\setmonofont{Source Code Pro}
+\setsansfont{Fira Sans}
+\setmonofont{Iosevka}
 \newfontfamily\martel{Martel Sans}
 \addtokomafont{disposition}{\martel}
 
@@ -39,6 +41,7 @@
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
 
+\pagenumbering{roman}
 \newenvironment{abspage}
   {\clearpage\vspace*{\fill}\thispagestyle{plain}
   }
@@ -48,10 +51,8 @@
    \noindent\textbf{\textsc{\abstractname.}}\enskip} %TODO
   {\par\bigskip\end{abspage}}
 \newcommand{\abs}[1][german]{\directlua{vwa_abs("\@currenvir")}\begin{abstract}[#1]}
-\newcommand{\toc}{\directlua{vwa_abs("\@currenvir")}\tableofcontents\newpage}
+\newcommand{\toc}{\directlua{vwa_abs("\@currenvir")}\tableofcontents\newpage\pagenumbering{arabic}}
 
 \newcommand{\name}{\textsc}
 
-% TODO Add multi-lang support using \renewcaptionname
-\newcommand{\cf}{\iflanguage{german}{vgl.}{cf.}}
 %\newcommand{\Cf}{\MakeUppercase{\StrLeft{\cf}{1}}\StrGobbleLeft{\cf}{1}}
