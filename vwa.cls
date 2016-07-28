@@ -11,8 +11,9 @@
   BCOR=1cm,
   numbers=noenddot,
 }
+\RequirePackage{scrlayer-scrpage}
 
-\RequirePackage{color} % provides \textcolor
+\RequirePackage{tikz} % graphics
 \RequirePackage{xstring} % string ops
 \RequirePackage{polyglossia} % multi-lang
 \RequirePackage{csquotes} % lang-specific quotes
@@ -32,6 +33,9 @@
 
 \ProcessOptions\relax
 
+% ---
+
+% lang
 \setmainlanguage[
   spelling=new,
   variant=austrian,
@@ -41,6 +45,7 @@
 \newcaptionname{german}{\cf}{vgl.}
 \newcaptionname{english}{\cf}{vgl.}
 
+% fonts
 \setromanfont{Cormorant}
 \setsansfont{Fira Sans}[
   FontFace = {el}{n}{Fira Sans Light},
@@ -49,6 +54,7 @@
 \setmonofont{Iosevka}
 \newfontfamily\martel{Martel Sans}
 
+% headings
 \addtokomafont{disposition}{\martel}
 \RedeclareSectionCommand[beforeskip=.35\textheight]{chapter}%.35\textheight]{chapter}
 \RedeclareSectionCommand[beforeskip=.05\textheight]{section}%TODO better definition
@@ -57,10 +63,34 @@
 \setcounter{secnumdepth}{\subsectionnumdepth}
 \setcounter{tocdepth}{\subsectionnumdepth}
 
+% header/footer
+\usetikzlibrary{shapes}
+\newcommand{\circlenum}[1]{
+  \raisebox{-.5\height}{
+    \begin{tikzpicture}[anchor = base, baseline]
+    \node[
+      circle,
+      #1,
+      ultra thin,
+      minimum size = 2.25em,
+    ]{\pagemark};
+    \end{tikzpicture}
+  }
+}
+\setlength{\footheight}{3.25em}
+\pagestyle{scrheadings}
+\automark[section]{chapter}
+\ofoot{\leftmark}
+\cfoot*{\circlenum{draw}}
+\ifoot{\rightmark}
+
+% dictum
 \addtokomafont{dictum}{\footnotesize\fontseries{el}\selectfont}
 \renewcommand{\dictumrule}{\vspace{.2\baselineskip}}
 \renewcommand{\dictumauthorformat}[1]{\scriptsize--- #1\hfill\vspace{.2\textheight}}
 
+
+% front
 \pagenumbering{roman}
 \newenvironment{abspage}
   {\clearpage\vspace*{\fill}\thispagestyle{plain}
@@ -71,7 +101,13 @@
    \noindent\textbf{\textsc{\abstractname.}}\enskip} %TODO
   {\par\bigskip\end{abspage}}
 \newcommand{\abs}[1][german]{\directlua{vwa_abs("\@currenvir")}\begin{abstract}[#1]}
-\newcommand{\toc}{\directlua{vwa_abs("\@currenvir")}\tableofcontents\newpage\pagenumbering{arabic}}
+\newcommand{\toc}{
+  \directlua{vwa_abs("\@currenvir")}
+  \tableofcontents
+  \newpage
+  \pagenumbering{arabic}
+  \cfoot[\circlenum{fill}]{\circlenum{draw}}
+}
 
 \newcommand{\name}{\textsc}
 
