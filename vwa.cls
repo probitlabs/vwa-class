@@ -66,23 +66,25 @@
 
 % header/footer
 \usetikzlibrary{shapes}
+\definecolor{dark}{HTML}{2c2c2c}
 \newcommand{\circlenum}[2]{
   \raisebox{-.5\height}{
     \begin{tikzpicture}[anchor = base, baseline]
     \node[
       circle,
       #1,
-      color = gray,
+      color = dark,
       ultra thin,
       minimum size = 2.25em,
-    ]{\setkomafont{pagenumber}{\color{#2}}\pagemark};
+    ]{\addtokomafont{pagenumber}{\color{#2}}\pagemark};
     \end{tikzpicture}
   }
 }
-\setkomafont{pagenumber}{\color{white}}
 \setlength{\footheight}{3.25em}
 \pagestyle{scrheadings}
-\automark[section]{chapter}
+\renewcommand{\chaptermark}[1]{\markleft{\chaptername \thechapter{}. #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection{} #1}{}} %TODO fuck this shit :-(
+\chead*{}
 \ofoot*{}
 \cfoot*{\circlenum{draw}{black}}
 \ifoot*{}

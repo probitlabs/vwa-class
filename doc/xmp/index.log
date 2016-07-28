@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Arch Linux) (rev 5238)  (format=lualatex 2016.4.17)  28 JUL 2016 06:36
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Arch Linux) (rev 5238)  (format=lualatex 2016.4.17)  28 JUL 2016 07:32
  restricted \write18 enabled.
 **index
 (./index.tex
@@ -622,7 +622,7 @@ Lua-only attribute luaotfload@cursbase = 6
 Lua-only attribute luaotfload@curscurs = 7
 Lua-only attribute luaotfload@cursdone = 8
 Lua-only attribute luaotfload@state = 9
-luaotfload | main : fontloader loaded in 0.023 seconds
+luaotfload | main : fontloader loaded in 0.034 seconds
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.find_vf_file' at position 1 in `find_vf_file'.
@@ -2500,12 +2500,7 @@ File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 \pgfnodepartsevenbox=\box72
 \pgfnodepartsixbox=\box73
 \pgfnodepartfivebox=\box74
-)))
-1: section
-1: chapter
-1: chapter
-1: section
-) (/usr/share/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+)))) (/usr/share/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
 File: gloss-english.ldf polyglossia: module for english
 )
 Package csquotes Info: Checking for multilingual support...
@@ -2522,7 +2517,15 @@ Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 (/usr/share/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2015/10/21 v3.1 biblatex localization (PK/JW/AB)
-) (./index.aux)
+) (./index.aux
+luatex-hyphen: loading patterns and exceptions for: ngerman (\language31)
+luatex-hyphen: info: no hyphenation exceptions for this language
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2015/10/21 v3.1 biblatex localization (PK/JW/AB)
+))
 \openout1 = index.aux
 
 LaTeX Font Info:    Checking defaults for OML/EBGaramond-Maths/m/it on input lin
@@ -2871,8 +2874,6 @@ Package biblatex Info: ... file 'index.bbl' found.
 (./index.bbl)
 Package biblatex Info: Reference section=0 on input line 5.
 Package biblatex Info: Reference segment=0 on input line 5.
-luatex-hyphen: loading patterns and exceptions for: ngerman (\language31)
-luatex-hyphen: info: no hyphenation exceptions for this language
 Package scrbase Info: activating german \abstractname on input line 5.
 Package scrbase Info: activating german \cf on input line 5.
 luaotfload | load : Lookup/name: "Cormorant" -> "Cormorant-Bold.ttf"
@@ -2957,13 +2958,7 @@ luaotfload | main : loading virtual font file /usr/share/texmf-dist/fonts/vf/pub
 lic/newtx/ntxexa.vf. [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2015/10/21 v3.1 biblatex localization (PK/JW/AB)
-) [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 
 ]
@@ -2975,11 +2970,14 @@ luaotfload | load : Lookup/name: "MartelSans" -> "MartelSans-Bold.otf" (./index
 \tf@toc=\write6
 
 \openout6 = index.toc
-
-[3
+ [3
 
 
 ] (./data/content.tex
+1: section
+1: chapter
+1: chapter
+1: section
 chapter 1.
 luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
 luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
@@ -2993,31 +2991,28 @@ luaotfload | load : Lookup/name: "MartelSans" -> "MartelSans-Bold.otf" [1
 ] [2]) [3] [1
 
 ] (./index.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'index.run.xml'.
 
 \openout1 = index.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 44928 strings out of 494897
+ 44933 strings out of 494897
  100000,1648299 words of node,token memory allocated
  746 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 5 kern, 10 attribute, 122 glue_spec, 10 att
 ribute_list, 1 write nodes
-   avail lists: 1:1,2:5029,3:147,4:1035,5:157,6:1793,7:54,9:437,10:189
- 46534 multiletter control sequences out of 65536+600000
+   avail lists: 1:4,2:5000,3:147,4:1035,5:155,6:1784,7:54,9:437,10:189
+ 46539 multiletter control sequences out of 65536+600000
  127 fonts using 25573095 bytes
  71i,26n,122p,1277b,2052s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/
-share/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/
-texmf-dist/fonts/opentype/public/fira/FiraSans-LightItalic.otf></usr/share/texmf
--dist/fonts/opentype/public/fira/FiraSans-Light.otf></home/tsby/.local/share/fon
-ts/MartelSans-Bold.otf></usr/share/fonts/TTF/Cormorant-Italic.ttf></usr/share/fo
+</usr/share/fonts/TTF/Cormorant-Italic.ttf></usr/share/texmf-dist/fonts/opentype
+/public/lm-math/latinmodern-math.otf></usr/share/texmf-dist/fonts/opentype/publi
+c/lm-math/latinmodern-math.otf></usr/share/texmf-dist/fonts/opentype/public/fira
+/FiraSans-LightItalic.otf></usr/share/texmf-dist/fonts/opentype/public/fira/Fira
+Sans-Light.otf></home/tsby/.local/share/fonts/MartelSans-Bold.otf></usr/share/fo
 nts/TTF/Cormorant-Regular.ttf></usr/share/fonts/TTF/Cormorant-Bold.ttf>
-Output written on index.pdf (7 pages, 59936 bytes).
+Output written on index.pdf (7 pages, 59464 bytes).
 
 PDF statistics: 85 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
