@@ -82,9 +82,9 @@
 }
 \setlength{\footheight}{3.25em}
 \pagestyle{scrheadings}
-\renewcommand{\chaptermark}[1]{\markleft{\chaptername \thechapter{}. #1}{}}
-\renewcommand{\sectionmark}[1]{\markright{\thesection{} #1}{}} %TODO fuck this shit :-(
-\chead*{}
+\automark[section]{chapter} %TODO fuck this too :-/
+%\renewcommand{\chaptermark}[1]{\markleft{\chaptername \thechapter{}. #1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection{} #1}{}} %TODO fuck this shit :-(
 \ofoot*{}
 \cfoot*{\circlenum{draw}{black}}
 \ifoot*{}

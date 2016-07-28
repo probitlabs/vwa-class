@@ -1,1 +1,1 @@
-# VWA class
+doc/index.md
