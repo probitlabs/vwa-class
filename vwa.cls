@@ -4,8 +4,15 @@
 \directlua{dofile("../../vwa.lua")} %TODO relative path
 
 \LoadClass{scrreprt}
-\KOMAoptions{paper=a4, fontsize=12pt, DIV=8, BCOR=1cm}
+\KOMAoptions{
+  paper=a4,
+  fontsize=12pt,
+  DIV=8,
+  BCOR=1cm,
+  numbers=noenddot,
+}
 
+\RequirePackage{color} % provides \textcolor
 \RequirePackage{xstring} % string ops
 \RequirePackage{polyglossia} % multi-lang
 \RequirePackage{csquotes} % lang-specific quotes
@@ -16,30 +23,43 @@
 \RequirePackage{amsmath}
 \RequirePackage{unicode-math}
 
-\RequirePackage[backend=biber, style=chicago-authordate]{biblatex} % bib + cite
+% bib + cite
+\RequirePackage[
+  backend=biber,
+  style=chicago-authordate
+]{biblatex}
 \RequirePackage{chngcntr}
 
-\DeclareOption{foo} {
-  \typeout{Foo.}
-}
 \ProcessOptions\relax
 
-\setmainlanguage[spelling=new, variant=austrian, babelshorthands=true]{german}
+\setmainlanguage[
+  spelling=new,
+  variant=austrian,
+  babelshorthands=true,
+]{german}
 \renewcaptionname{german}{\abstractname}{Abriss}
 \newcaptionname{german}{\cf}{vgl.}
 \newcaptionname{english}{\cf}{vgl.}
 
 \setromanfont{Cormorant}
-\setsansfont{Fira Sans}
+\setsansfont{Fira Sans}[
+  FontFace = {el}{n}{Fira Sans Light},
+  FontFace = {el}{it}{Fira Sans Light Italic},
+]
 \setmonofont{Iosevka}
 \newfontfamily\martel{Martel Sans}
-\addtokomafont{disposition}{\martel}
 
+\addtokomafont{disposition}{\martel}
+\RedeclareSectionCommand[beforeskip=.35\textheight]{chapter}%.35\textheight]{chapter}
+\RedeclareSectionCommand[beforeskip=.05\textheight]{section}%TODO better definition
 \counterwithout{figure}{chapter}
 \counterwithout{equation}{chapter}
+\setcounter{secnumdepth}{\subsectionnumdepth}
+\setcounter{tocdepth}{\subsectionnumdepth}
 
-\setcounter{secnumdepth}{3}
-\setcounter{tocdepth}{3}
+\addtokomafont{dictum}{\footnotesize\fontseries{el}\selectfont}
+\renewcommand{\dictumrule}{\vspace{.2\baselineskip}}
+\renewcommand{\dictumauthorformat}[1]{\scriptsize--- #1\hfill\vspace{.2\textheight}}
 
 \pagenumbering{roman}
 \newenvironment{abspage}
