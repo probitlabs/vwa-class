@@ -14,6 +14,7 @@
 \RequirePackage{scrlayer-scrpage}
 
 \RequirePackage{tikz} % graphics
+\RequirePackage{xcolor}
 \RequirePackage{xstring} % string ops
 \RequirePackage{polyglossia} % multi-lang
 \RequirePackage{csquotes} % lang-specific quotes
@@ -65,24 +66,26 @@
 
 % header/footer
 \usetikzlibrary{shapes}
-\newcommand{\circlenum}[1]{
+\newcommand{\circlenum}[2]{
   \raisebox{-.5\height}{
     \begin{tikzpicture}[anchor = base, baseline]
     \node[
       circle,
       #1,
+      color = gray,
       ultra thin,
       minimum size = 2.25em,
-    ]{\pagemark};
+    ]{\setkomafont{pagenumber}{\color{#2}}\pagemark};
     \end{tikzpicture}
   }
 }
+\setkomafont{pagenumber}{\color{white}}
 \setlength{\footheight}{3.25em}
 \pagestyle{scrheadings}
 \automark[section]{chapter}
-\ofoot{\leftmark}
-\cfoot*{\circlenum{draw}}
-\ifoot{\rightmark}
+\ofoot*{}
+\cfoot*{\circlenum{draw}{black}}
+\ifoot*{}
 
 % dictum
 \addtokomafont{dictum}{\footnotesize\fontseries{el}\selectfont}
@@ -96,17 +99,42 @@
   {\clearpage\vspace*{\fill}\thispagestyle{plain}
   }
   {\vfill\clearpage}
-\renewenvironment{abstract}[1][german]
-  {\begin{abspage}\bigskip\selectlanguage{#1}%
-   \noindent\textbf{\textsc{\abstractname.}}\enskip} %TODO
-  {\par\bigskip\end{abspage}}
-\newcommand{\abs}[1][german]{\directlua{vwa_abs("\@currenvir")}\begin{abstract}[#1]}
-\newcommand{\toc}{
+\renewenvironment{abstract}[1][german]{
+  \begin{abspage}
+  \bigskip
+  \selectlanguage{#1}%
+  \noindent\textbf{\textsc{\abstractname.}}\enskip
+}{
+  \par
+  \bigskip
+  \end{abspage}
+}
+\newcommand{\abs}[1][german]{
+  \directlua{vwa_abs("\@currenvir")}
+  \begin{abstract}[#1]
+}
+\newenvironment{front}{
+  \pagenumbering{roman}
+}{
   \directlua{vwa_abs("\@currenvir")}
   \tableofcontents
+}
+
+% main
+\newenvironment{main}{
   \newpage
+  \ofoot{\leftmark}
+  \cfoot[\circlenum{fill}{white}]{\circlenum{draw}{black}}
+  \ifoot{\rightmark}
   \pagenumbering{arabic}
-  \cfoot[\circlenum{fill}]{\circlenum{draw}}
+}{}
+
+% back
+\newenvironment{back}{
+  \newpage
+  \pagenumbering{Roman}
+}{
+  \printbibliography
 }
 
 \newcommand{\name}{\textsc}
