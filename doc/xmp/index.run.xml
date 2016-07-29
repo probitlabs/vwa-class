@@ -57,7 +57,6 @@
       <file>chicago-authordate.cbx</file>
       <file>biblatex.cfg</file>
       <file>german.lbx</file>
-      <file>english.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">

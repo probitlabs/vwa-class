@@ -5,11 +5,12 @@
 
 \LoadClass{scrreprt}
 \KOMAoptions{
-  paper=a4,
-  fontsize=12pt,
-  DIV=8,
-  BCOR=1cm,
-  numbers=noenddot,
+  paper = a4,
+  fontsize = 12pt,
+  DIV = 8,
+  BCOR = 1cm,
+  numbers = noenddot,
+  abstract = true,
 }
 \RequirePackage{scrlayer-scrpage}
 
@@ -107,7 +108,7 @@
   {\clearpage\vspace*{\fill}\thispagestyle{plain}
   }
   {\vfill\clearpage}
-\renewenvironment{abstract}[1][german]{
+\newenvironment{abstract2}[1][german]{
   \begin{abspage}
   \bigskip
   \selectlanguage{#1}%
@@ -123,6 +124,7 @@
 }
 \newenvironment{front}{
   \pagenumbering{roman}
+  \maketitle
 }{
   \directlua{vwa_abs("\@currenvir")}
   \tableofcontents

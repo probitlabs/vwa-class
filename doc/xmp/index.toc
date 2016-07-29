@@ -2,14 +2,6 @@
 \defcounter {refsection}{0}\relax 
 \select@language {german}
 \defcounter {refsection}{0}\relax 
-\select@language {german}
-\defcounter {refsection}{0}\relax 
-\select@language {german}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {german}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Vektoren}{1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Allgemeine Operationen}{1}
