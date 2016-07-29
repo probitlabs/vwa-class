@@ -49,8 +49,14 @@
 % fonts
 \setromanfont{Cormorant}
 \setsansfont{Fira Sans}[
-  FontFace = {el}{n}{Fira Sans Light},
-  FontFace = {el}{it}{Fira Sans Light Italic},
+  FontFace = {l}{n}{Fira Sans Light},
+  FontFace = {l}{it}{Fira Sans Light Italic},
+  FontFace = {el}{n}{Fira Sans ExtraLight},
+  FontFace = {el}{it}{Fira Sans ExtraLight Italic},
+  FontFace = {lc}{n}{Fira Sans Condensed Light},
+  FontFace = {lc}{it}{Fira Sans Condensed Light Italic},
+  FontFace = {elc}{n}{Fira Sans Condensed ExtraLight},
+  FontFace = {elc}{it}{Fira Sans Condensed ExtraLight Italic},
 ]
 \setmonofont{Iosevka}
 \newfontfamily\martel{Martel Sans}
@@ -125,9 +131,9 @@
 % main
 \newenvironment{main}{
   \newpage
-  \ofoot{\leftmark}
+  \ofoot{\sffamily\fontseries{lc}\upshape\footnotesize\leftmark}
   \cfoot[\circlenum{fill}{white}]{\circlenum{draw}{black}}
-  \ifoot{\rightmark}
+  \ifoot{\sffamily\fontseries{lc}\upshape\footnotesize\rightmark}
   \pagenumbering{arabic}
 }{}
 

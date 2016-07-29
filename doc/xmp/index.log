@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Arch Linux) (rev 5238)  (format=lualatex 2016.4.17)  28 JUL 2016 07:32
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Arch Linux) (rev 5238)  (format=lualatex 2016.4.17)  29 JUL 2016 02:18
  restricted \write18 enabled.
 **index
 (./index.tex
@@ -622,7 +622,7 @@ Lua-only attribute luaotfload@cursbase = 6
 Lua-only attribute luaotfload@curscurs = 7
 Lua-only attribute luaotfload@cursdone = 8
 Lua-only attribute luaotfload@state = 9
-luaotfload | main : fontloader loaded in 0.034 seconds
+luaotfload | main : fontloader loaded in 0.030 seconds
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.find_vf_file' at position 1 in `find_vf_file'.
@@ -2066,6 +2066,43 @@ italic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/o
 tf/firasans-lightitalic.luc)
 luaotfload | load : Lookup/name: "FiraSansLightItalic" -> "FiraSans-LightItalic.
 otf"
+luaotfload | load : Lookup/name: "FiraSansExtraLight" -> "FiraSans-ExtraLight.ot
+f"(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/firasans-extrali
+ght.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/
+firasans-extralight.luc)
+luaotfload | load : Lookup/name: "FiraSansExtraLight" -> "FiraSans-ExtraLight.ot
+f"
+luaotfload | load : Lookup/name: "FiraSansExtraLightItalic" -> "FiraSans-ExtraLi
+ghtItalic.otf"(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/fira
+sans-extralightitalic.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/
+generic/fonts/otf/firasans-extralightitalic.luc)
+luaotfload | load : Lookup/name: "FiraSansExtraLightItalic" -> "FiraSans-ExtraLi
+ghtItalic.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedLight" -> "firasanscondensed-
+light.otf"(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/firasans
+condensed-light.luc)(load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generi
+c/fonts/otf/firasanscondensed-light.luc)
+luaotfload | load : Lookup/name: "FiraSansCondensedLight" -> "firasanscondensed-
+light.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedLightItalic" -> "firasanscond
+ensed-lightitalic.otf"(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/
+otf/firasanscondensed-lightitalic.luc)(load luc: /home/tsby/.texlive/texmf-var/l
+uatex-cache/generic/fonts/otf/firasanscondensed-lightitalic.luc)
+luaotfload | load : Lookup/name: "FiraSansCondensedLightItalic" -> "firasanscond
+ensed-lightitalic.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedExtraLight" -> "firasansconde
+nsed-extralight.otf"(compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/ot
+f/firasanscondensed-extralight.luc)(load luc: /home/tsby/.texlive/texmf-var/luat
+ex-cache/generic/fonts/otf/firasanscondensed-extralight.luc)
+luaotfload | load : Lookup/name: "FiraSansCondensedExtraLight" -> "firasansconde
+nsed-extralight.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedExtraLightItalic" -> "firasan
+scondensed-extralightitalic.otf"(compiling luc: /var/lib/texmf/luatex-cache/gene
+ric/fonts/otf/firasanscondensed-extralightitalic.luc)(load luc: /home/tsby/.texl
+ive/texmf-var/luatex-cache/generic/fonts/otf/firasanscondensed-extralightitalic.
+luc)
+luaotfload | load : Lookup/name: "FiraSansCondensedExtraLightItalic" -> "firasan
+scondensed-extralightitalic.otf"
 luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
 luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
 luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Bold.ttf"
@@ -2078,8 +2115,12 @@ luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-BoldItalic.ttf"
 . fontspec info: "defining-font"
 . 
 . Font family 'FiraSans(0)' created for font 'Fira Sans' with options
-. [Ligatures=TeX,FontFace = {el}{n}{Fira Sans Light},FontFace = {el}{it}{Fira
-. Sans Light Italic}].
+. [Ligatures=TeX,FontFace = {l}{n}{Fira Sans Light},FontFace = {l}{it}{Fira
+. Sans Light Italic},FontFace = {el}{n}{Fira Sans ExtraLight},FontFace =
+. {el}{it}{Fira Sans ExtraLight Italic},FontFace = {lc}{n}{Fira Sans Condensed
+. Light},FontFace = {lc}{it}{Fira Sans Condensed Light Italic},FontFace =
+. {elc}{n}{Fira Sans Condensed ExtraLight},FontFace = {elc}{it}{Fira Sans
+. Condensed ExtraLight Italic}].
 . 
 . This font family consists of the following shapes:
 . 
@@ -2098,6 +2139,75 @@ luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-BoldItalic.ttf"
 . 
 . <->"FiraSansLightItalic:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp;
 "
+. and font adjustment code:
+. 
+. 
+. * 'n/,' with NFSS spec.:
+. <->"FiraSansExtraLight:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+. 
+. * 'n/,' with NFSS spec.:
+. 
+. <->"FiraSansExtraLight:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp;"
+
+. and font adjustment code:
+. 
+. 
+. * 'it/,' with NFSS spec.:
+. 
+. <->"FiraSansExtraLightItalic:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+
+. 
+. * 'it/,' with NFSS spec.:
+. 
+. <->"FiraSansExtraLightItalic:mode=node;script=latn;language=DFLT;+tlig;+trep;+
+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'n/,' with NFSS spec.:
+. 
+. <->"FiraSansCondensedLight:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+. 
+. * 'n/,' with NFSS spec.:
+. 
+. <->"FiraSansCondensedLight:mode=node;script=latn;language=DFLT;+tlig;+trep;+sm
+cp;"
+. and font adjustment code:
+. 
+. 
+. * 'it/,' with NFSS spec.:
+. 
+. <->"FiraSansCondensedLightItalic:mode=node;script=latn;language=DFLT;+tlig;+tr
+ep;"
+. 
+. * 'it/,' with NFSS spec.:
+. 
+. <->"FiraSansCondensedLightItalic:mode=node;script=latn;language=DFLT;+tlig;+tr
+ep;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'n/,' with NFSS spec.:
+. 
+. <->"FiraSansCondensedExtraLight:mode=node;script=latn;language=DFLT;+tlig;+tre
+p;"
+. 
+. * 'n/,' with NFSS spec.:
+. 
+. <->"FiraSansCondensedExtraLight:mode=node;script=latn;language=DFLT;+tlig;+tre
+p;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'it/,' with NFSS spec.:
+. 
+. <->"FiraSansCondensedExtraLightItalic:mode=node;script=latn;language=DFLT;+tli
+g;+trep;"
+. 
+. * 'it/,' with NFSS spec.:
+. 
+. <->"FiraSansCondensedExtraLightItalic:mode=node;script=latn;language=DFLT;+tli
+g;+trep;+smcp;"
 . and font adjustment code:
 . 
 . 
@@ -2147,6 +2257,30 @@ luaotfload | load : Lookup/name: "FiraSansLightItalic" -> "FiraSans-LightItalic.
 otf"
 luaotfload | load : Lookup/name: "FiraSansLightItalic" -> "FiraSans-LightItalic.
 otf"
+luaotfload | load : Lookup/name: "FiraSansExtraLight" -> "FiraSans-ExtraLight.ot
+f"
+luaotfload | load : Lookup/name: "FiraSansExtraLight" -> "FiraSans-ExtraLight.ot
+f"
+luaotfload | load : Lookup/name: "FiraSansExtraLightItalic" -> "FiraSans-ExtraLi
+ghtItalic.otf"
+luaotfload | load : Lookup/name: "FiraSansExtraLightItalic" -> "FiraSans-ExtraLi
+ghtItalic.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedLight" -> "firasanscondensed-
+light.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedLight" -> "firasanscondensed-
+light.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedLightItalic" -> "firasanscond
+ensed-lightitalic.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedLightItalic" -> "firasanscond
+ensed-lightitalic.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedExtraLight" -> "firasansconde
+nsed-extralight.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedExtraLight" -> "firasansconde
+nsed-extralight.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedExtraLightItalic" -> "firasan
+scondensed-extralightitalic.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedExtraLightItalic" -> "firasan
+scondensed-extralightitalic.otf"
 luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
 luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
 luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Bold.ttf"
@@ -2159,8 +2293,12 @@ luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-BoldItalic.ttf"
 . fontspec info: "defining-font"
 . 
 . Font family 'FiraSans(1)' created for font 'Fira Sans' with options
-. [Renderer=Basic,FontFace = {el}{n}{Fira Sans Light},FontFace = {el}{it}{Fira
-. Sans Light Italic}].
+. [Renderer=Basic,FontFace = {l}{n}{Fira Sans Light},FontFace = {l}{it}{Fira
+. Sans Light Italic},FontFace = {el}{n}{Fira Sans ExtraLight},FontFace =
+. {el}{it}{Fira Sans ExtraLight Italic},FontFace = {lc}{n}{Fira Sans Condensed
+. Light},FontFace = {lc}{it}{Fira Sans Condensed Light Italic},FontFace =
+. {elc}{n}{Fira Sans Condensed ExtraLight},FontFace = {elc}{it}{Fira Sans
+. Condensed ExtraLight Italic}].
 . 
 . This font family consists of the following shapes:
 . 
@@ -2177,6 +2315,57 @@ luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-BoldItalic.ttf"
 . 
 . * 'it/,' with NFSS spec.:
 . <->"FiraSansLightItalic:mode=base;script=latn;language=DFLT;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'n/,' with NFSS spec.:
+. <->"FiraSansExtraLight:mode=base;script=latn;language=DFLT;"
+. 
+. * 'n/,' with NFSS spec.:
+. <->"FiraSansExtraLight:mode=base;script=latn;language=DFLT;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'it/,' with NFSS spec.:
+. <->"FiraSansExtraLightItalic:mode=base;script=latn;language=DFLT;"
+. 
+. * 'it/,' with NFSS spec.:
+. <->"FiraSansExtraLightItalic:mode=base;script=latn;language=DFLT;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'n/,' with NFSS spec.:
+. <->"FiraSansCondensedLight:mode=base;script=latn;language=DFLT;"
+. 
+. * 'n/,' with NFSS spec.:
+. <->"FiraSansCondensedLight:mode=base;script=latn;language=DFLT;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'it/,' with NFSS spec.:
+. <->"FiraSansCondensedLightItalic:mode=base;script=latn;language=DFLT;"
+. 
+. * 'it/,' with NFSS spec.:
+. 
+. <->"FiraSansCondensedLightItalic:mode=base;script=latn;language=DFLT;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'n/,' with NFSS spec.:
+. <->"FiraSansCondensedExtraLight:mode=base;script=latn;language=DFLT;"
+. 
+. * 'n/,' with NFSS spec.:
+. <->"FiraSansCondensedExtraLight:mode=base;script=latn;language=DFLT;+smcp;"
+. and font adjustment code:
+. 
+. 
+. * 'it/,' with NFSS spec.:
+. <->"FiraSansCondensedExtraLightItalic:mode=base;script=latn;language=DFLT;"
+. 
+. * 'it/,' with NFSS spec.:
+. 
+. <->"FiraSansCondensedExtraLightItalic:mode=base;script=latn;language=DFLT;+smc
+p;"
 . and font adjustment code:
 . 
 . 
@@ -2213,9 +2402,9 @@ luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-BoldItalic.ttf"
 . 
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  EU2/lmss/m/n --> EU2/FiraSans(1)/m/n on input line 54.
+(Font)                  EU2/lmss/m/n --> EU2/FiraSans(1)/m/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  EU2/lmss/b/n --> EU2/FiraSans(1)/bx/n on input line 54.
+(Font)                  EU2/lmss/b/n --> EU2/FiraSans(1)/bx/n on input line 60.
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-regular.ttf"(compiling lu
 c: /var/lib/texmf/luatex-cache/generic/fonts/otf/iosevka-regular.luc)(load luc: 
 /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/iosevka-regular.luc
@@ -2238,24 +2427,24 @@ c: /var/lib/texmf/luatex-cache/generic/fonts/otf/iosevka-oblique.luc)(load luc:
 )
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-regular.ttf"
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-regular.ttf"
-luaotfload | aux : font no 40 (Iosevka) does not define feature smcp for script 
+luaotfload | aux : font no 46 (Iosevka) does not define feature smcp for script 
 latn with language dflt
-luaotfload | aux : no font with id 40
+luaotfload | aux : no font with id 46
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-bold.ttf"
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-bold.ttf"
-luaotfload | aux : font no 42 (Iosevka-Bold) does not define feature smcp for sc
+luaotfload | aux : font no 48 (Iosevka-Bold) does not define feature smcp for sc
 ript latn with language dflt
-luaotfload | aux : no font with id 42
+luaotfload | aux : no font with id 48
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-oblique.ttf"
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-oblique.ttf"
-luaotfload | aux : font no 43 (Iosevka-Oblique) does not define feature smcp for
+luaotfload | aux : font no 49 (Iosevka-Oblique) does not define feature smcp for
  script latn with language dflt
-luaotfload | aux : no font with id 43
+luaotfload | aux : no font with id 49
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-boldoblique.ttf"
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-boldoblique.ttf"
-luaotfload | aux : font no 41 (Iosevka-Bold-Oblique) does not define feature smc
+luaotfload | aux : font no 47 (Iosevka-Bold-Oblique) does not define feature smc
 p for script latn with language dflt
-luaotfload | aux : no font with id 41
+luaotfload | aux : no font with id 47
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2310,24 +2499,24 @@ luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-regular.ttf"
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-oblique.ttf"
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-regular.ttf"
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-regular.ttf"
-luaotfload | aux : font no 40 (Iosevka) does not define feature smcp for script 
+luaotfload | aux : font no 46 (Iosevka) does not define feature smcp for script 
 latn with language dflt
-luaotfload | aux : no font with id 40
+luaotfload | aux : no font with id 46
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-bold.ttf"
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-bold.ttf"
-luaotfload | aux : font no 42 (Iosevka-Bold) does not define feature smcp for sc
+luaotfload | aux : font no 48 (Iosevka-Bold) does not define feature smcp for sc
 ript latn with language dflt
-luaotfload | aux : no font with id 42
+luaotfload | aux : no font with id 48
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-oblique.ttf"
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-oblique.ttf"
-luaotfload | aux : font no 43 (Iosevka-Oblique) does not define feature smcp for
+luaotfload | aux : font no 49 (Iosevka-Oblique) does not define feature smcp for
  script latn with language dflt
-luaotfload | aux : no font with id 43
+luaotfload | aux : no font with id 49
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-boldoblique.ttf"
 luaotfload | load : Lookup/name: "Iosevka" -> "iosevka-boldoblique.ttf"
-luaotfload | aux : font no 41 (Iosevka-Bold-Oblique) does not define feature smc
+luaotfload | aux : font no 47 (Iosevka-Bold-Oblique) does not define feature smc
 p for script latn with language dflt
-luaotfload | aux : no font with id 41
+luaotfload | aux : no font with id 47
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2369,9 +2558,9 @@ luaotfload | aux : no font with id 41
 . 
 .................................................
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  EU2/lmtt/m/n --> EU2/Iosevka(1)/m/n on input line 55.
+(Font)                  EU2/lmtt/m/n --> EU2/Iosevka(1)/m/n on input line 61.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  EU2/lmtt/b/n --> EU2/Iosevka(1)/bx/n on input line 55.
+(Font)                  EU2/lmtt/b/n --> EU2/Iosevka(1)/bx/n on input line 61.
 luaotfload | load : Lookup/name: "Martel Sans" -> "MartelSans-Regular.otf"(compi
 ling luc: /var/lib/texmf/luatex-cache/generic/fonts/otf/martelsans-regular.luc)(
 load luc: /home/tsby/.texlive/texmf-var/luatex-cache/generic/fonts/otf/martelsan
@@ -2399,14 +2588,14 @@ luaotfload | load : Lookup/name: "Martel Sans" -> "MartelSans-Regular.otf"
 .................................................
 luaotfload | load : Lookup/name: "MartelSans" -> "MartelSans-Regular.otf"
 luaotfload | load : Lookup/name: "MartelSans" -> "MartelSans-Regular.otf"
-luaotfload | aux : font no 44 (MartelSans-Regular) does not define feature smcp 
+luaotfload | aux : font no 50 (MartelSans-Regular) does not define feature smcp 
 for script latn with language dflt
-luaotfload | aux : no font with id 44
+luaotfload | aux : no font with id 50
 luaotfload | load : Lookup/name: "MartelSans" -> "MartelSans-Bold.otf"
 luaotfload | load : Lookup/name: "MartelSans" -> "MartelSans-Bold.otf"
-luaotfload | aux : font no 45 (MartelSans-Bold) does not define feature smcp for
+luaotfload | aux : font no 51 (MartelSans-Bold) does not define feature smcp for
  script latn with language dflt
-luaotfload | aux : no font with id 45
+luaotfload | aux : no font with id 51
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2500,7 +2689,12 @@ File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 \pgfnodepartsevenbox=\box72
 \pgfnodepartsixbox=\box73
 \pgfnodepartfivebox=\box74
-)))) (/usr/share/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+)))
+1: section
+1: chapter
+1: chapter
+1: section
+) (/usr/share/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
 File: gloss-english.ldf polyglossia: module for english
 )
 Package csquotes Info: Checking for multilingual support...
@@ -2640,9 +2834,9 @@ luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
-luaotfload | aux : font no 47 (LatinModernMath-Regular) does not define feature 
+luaotfload | aux : font no 53 (LatinModernMath-Regular) does not define feature 
 smcp for script math with language dflt
-luaotfload | aux : no font with id 47
+luaotfload | aux : no font with id 53
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
@@ -2651,9 +2845,9 @@ luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
-luaotfload | aux : font no 47 (LatinModernMath-Regular) does not define feature 
+luaotfload | aux : font no 53 (LatinModernMath-Regular) does not define feature 
 smcp for script math with language dflt
-luaotfload | aux : no font with id 47
+luaotfload | aux : no font with id 53
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2712,9 +2906,9 @@ luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
-luaotfload | aux : font no 47 (LatinModernMath-Regular) does not define feature 
+luaotfload | aux : font no 53 (LatinModernMath-Regular) does not define feature 
 smcp for script math with language dflt
-luaotfload | aux : no font with id 47
+luaotfload | aux : no font with id 53
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
@@ -2723,9 +2917,9 @@ luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
-luaotfload | aux : font no 47 (LatinModernMath-Regular) does not define feature 
+luaotfload | aux : font no 53 (LatinModernMath-Regular) does not define feature 
 smcp for script math with language dflt
-luaotfload | aux : no font with id 47
+luaotfload | aux : no font with id 53
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2798,9 +2992,9 @@ luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
-luaotfload | aux : font no 47 (LatinModernMath-Regular) does not define feature 
+luaotfload | aux : font no 53 (LatinModernMath-Regular) does not define feature 
 smcp for script math with language dflt
-luaotfload | aux : no font with id 47
+luaotfload | aux : no font with id 53
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
@@ -2809,9 +3003,9 @@ luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
 luaotfload | load : path lookup of "latinmodern-math" unsuccessful, falling back
  to file:
-luaotfload | aux : font no 47 (LatinModernMath-Regular) does not define feature 
+luaotfload | aux : font no 53 (LatinModernMath-Regular) does not define feature 
 smcp for script math with language dflt
-luaotfload | aux : no font with id 47
+luaotfload | aux : no font with id 53
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2974,21 +3168,28 @@ luaotfload | load : Lookup/name: "MartelSans" -> "MartelSans-Bold.otf" (./index
 
 
 ] (./data/content.tex
-1: section
-1: chapter
-1: chapter
-1: section
 chapter 1.
 luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
 luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Book.ttf"
-luaotfload | load : Lookup/name: "FiraSansLight" -> "FiraSans-Light.otf"
-luaotfload | load : Lookup/name: "FiraSansLightItalic" -> "FiraSans-LightItalic.
-otf"
-luaotfload | load : Lookup/name: "FiraSansLightItalic" -> "FiraSans-LightItalic.
-otf"
+luaotfload | load : Lookup/name: "FiraSansExtraLight" -> "FiraSans-ExtraLight.ot
+f"
+luaotfload | load : Lookup/name: "FiraSansExtraLightItalic" -> "FiraSans-ExtraLi
+ghtItalic.otf"
+luaotfload | load : Lookup/name: "FiraSansExtraLightItalic" -> "FiraSans-ExtraLi
+ghtItalic.otf"
 luaotfload | load : Lookup/name: "MartelSans" -> "MartelSans-Bold.otf" [1
 
-] [2]) [3] [1
+]
+LaTeX Font Info:    Font shape `EU2/FiraSans(0)/m/sl' in size <12> not available
+
+(Font)              Font shape `EU2/FiraSans(0)/m/it' tried instead on input lin
+e 40.
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Italic.ttf"
+luaotfload | load : Lookup/name: "FiraSans" -> "FiraSans-Italic.ttf"
+luaotfload | load : Lookup/name: "FiraSansCondensedLight" -> "firasanscondensed-
+light.otf"
+luaotfload | load : Lookup/name: "FiraSansCondensedLight" -> "firasanscondensed-
+light.otf" [2]) [3] [1
 
 ] (./index.aux)
 Package logreq Info: Writing requests to 'index.run.xml'.
@@ -2997,25 +3198,26 @@ Package logreq Info: Writing requests to 'index.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44933 strings out of 494897
+ 45077 strings out of 494897
  100000,1648299 words of node,token memory allocated
  746 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 5 kern, 10 attribute, 122 glue_spec, 10 att
 ribute_list, 1 write nodes
-   avail lists: 1:4,2:5000,3:147,4:1035,5:155,6:1784,7:54,9:437,10:189
- 46539 multiletter control sequences out of 65536+600000
- 127 fonts using 25573095 bytes
+   avail lists: 1:4,2:5037,3:147,4:1037,5:161,6:1793,7:54,9:437,10:189
+ 46603 multiletter control sequences out of 65536+600000
+ 136 fonts using 27557807 bytes
  71i,26n,122p,1277b,2052s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/fonts/TTF/Cormorant-Italic.ttf></usr/share/texmf-dist/fonts/opentype
-/public/lm-math/latinmodern-math.otf></usr/share/texmf-dist/fonts/opentype/publi
-c/lm-math/latinmodern-math.otf></usr/share/texmf-dist/fonts/opentype/public/fira
-/FiraSans-LightItalic.otf></usr/share/texmf-dist/fonts/opentype/public/fira/Fira
-Sans-Light.otf></home/tsby/.local/share/fonts/MartelSans-Bold.otf></usr/share/fo
-nts/TTF/Cormorant-Regular.ttf></usr/share/fonts/TTF/Cormorant-Bold.ttf>
-Output written on index.pdf (7 pages, 59464 bytes).
+</home/tsby/.local/share/fonts/firasanscondensed-light.otf></usr/share/fonts/TTF
+/Cormorant-Italic.ttf></usr/share/texmf-dist/fonts/opentype/public/lm-math/latin
+modern-math.otf></usr/share/texmf-dist/fonts/opentype/public/lm-math/latinmodern
+-math.otf></usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-ExtraLightI
+talic.otf></usr/share/texmf-dist/fonts/opentype/public/fira/FiraSans-ExtraLight.
+otf></home/tsby/.local/share/fonts/MartelSans-Bold.otf></usr/share/fonts/TTF/Cor
+morant-Regular.ttf></usr/share/fonts/TTF/Cormorant-Bold.ttf>
+Output written on index.pdf (7 pages, 61384 bytes).
 
-PDF statistics: 85 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+PDF statistics: 92 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

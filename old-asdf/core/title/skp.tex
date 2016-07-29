@@ -1,0 +1,58 @@
+\newcommand{\Title}{}
+\newcommand{\Author}{}
+\newcommand{\Class}{}
+\newcommand{\Teacher}{}
+\newcommand{\Date}{}
+\newcommand{\Email}{}
+
+\newcommand{\setTitle}[1]{
+    \title{#1}
+    \renewcommand{\Title}{#1}
+}
+\newcommand{\setAuthor}[1]{
+    \author{#1}
+    \renewcommand{\Author}{#1}
+}
+\newcommand{\setClass}[2]{
+    \renewcommand{\Class}{#1 \quad #2}
+}
+\newcommand{\setTeacher}[1]{
+    \renewcommand{\Teacher}{#1}
+}
+\newcommand{\setDate}[3]{
+    \renewcommand{\Date}{#1.\,#2.\ #3}
+}
+\newcommand{\setEmail}[1]{
+    \renewcommand{\Email}{mailto:#1}
+}
+
+\newcommand*{\skptitle}{
+    \newgeometry{left=20mm,bottom=2cm,right=20mm,top=2cm}
+    \begin{titlepage}
+    \begingroup
+    \center
+    \begin{flushright}
+    \href{http://popperschule.at}{\includegraphics[width=50mm]{core/logo.pdf}}
+    \end{flushright}
+    \vspace{2cm}
+    {Vorwissenschaftliche Arbeit im Rahmen der Reifeprüfung}
+    \vspace{4cm}
+
+    {\LARGE\bfseries \Title \\[4\baselineskip]}
+
+    {\href{\Email}{\Large\name{\Author}}}\\[\baselineskip]
+    {\Class}\par
+    \vfill
+
+    {\href{http://wiednergymnasium.at}{Bundesgymnasium und Bundesrealgymnasium Wien 4}\\
+    \href{http://wiednergymnasium.at}{Wiedner Gymnasium} / \href{http://popperschule.at}{Sir Karl Popper Schule}\\
+    \href{http://goo.gl/3Yg0Q0}{Wiedner Gürtel 68, 1040 Wien}\\[4ex]
+    Betreuungslehrperson: \name{\Teacher}\\[2ex]
+    Vorgelegt am \Date}\par
+
+    \vspace*{3\baselineskip} % Whitespace at the bottom of the page
+    \endgroup
+
+    \end{titlepage}
+    \restoregeometry
+}

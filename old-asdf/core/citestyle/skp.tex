@@ -1,0 +1,25 @@
+% the school now users the chicago manual of style (author/date)
+\usepackage[backend=biber, style=chicago-authordate]{biblatex}
+
+
+%
+%	code partially stolen from skpcite script by Valentin Huebner
+%
+
+%confer (\skpcf[seitenzahl]{Name der Quelle im .bib file})
+\newcommand{\skpcf}[2][]{\parencite[vgl.][#1]{#2}}
+\newcommand{\Skpcf}[2][]{\parencite[Vgl.][#1]{#2}}
+%multiconfer (\skpcfmulti[42]{Mixer202}[18]{Baron1992} beliebig viele möglich!)
+\newcommand{\skpcfmulti}{\parencites(vgl.)()}
+\newcommand{\Skpcfrmulti}{\parencites(Vgl.)()}
+
+%cite (\skpcite[Seitenzahl]{Name der Quelle}{Text})
+\newcommand{\skpcite}[3][]{\glqq #3\grqq \parencite[][#1]{#2}}
+%longcite (\skplongcite[Seitenzahl]{Name der Quelle}{Text})
+\newcommand{\skplongcite}[3][]{
+\vspace{0.5cm}
+\begin{addmargin}{1cm}
+\small{#3} \parencite[][#1]{#2}
+\end{addmargin}
+\vspace{0.5cm}
+}

@@ -1,0 +1,37 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[british, ngerman]{babel}
+\usepackage[babel,german=quotes]{csquotes}
+\usepackage[hidelinks]{hyperref}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{chngcntr}
+\usepackage{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{color}
+
+
+\counterwithout{figure}{section}
+
+\geometry{a4paper, top=25mm, inner=35mm, outer=25mm, bottom=25mm,
+headsep=10mm, footskip=12mm}
+
+\counterwithout{equation}{section}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\addto{\captionsngerman}{\renewcommand{\abstractname}{Abstract}}
+
+\newenvironment{abstractpage}
+  {\clearpage\vspace*{\fill}\thispagestyle{plain}
+  }
+  {\vfill\clearpage}
+\newenvironment{mlabstract}[1]
+  {\bigskip\selectlanguage{#1}%
+   \begin{center}\bfseries\abstractname\end{center}}
+  {\par\bigskip}
+
+\newcommand{\name}{\textsc}
+
+\newcommand{\skpquotes}[1]{\glqq #1\grqq }
+\newcommand{\qt}[1]{\skpquotes{#1}}
